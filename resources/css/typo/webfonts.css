@@ -4,15 +4,17 @@
  */
 
 @font-face {
-  font-family: 'Seria-11-Medium';
-  src: url('fonts/Seria-11-Medium.woff2') format('woff2'), url('fonts/Seria-11-Medium.woff') format('woff');
+  font-family: 'GTAmericaULt';
+  src: url('fonts/GTAmericaTrial-ULt.woff2') format('woff2'), url('fonts/GTAmericaTrial-ULt.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'RuderPlakatMaxiLLWeb-Regular';
-  src: url('fonts/RuderPlakatMaxiLLWeb-Regular.woff2') format('woff2'), url('fonts/RuderPlakatMaxiLLWeb-Regular.woff') format('woff');
-  font-style: normal;
+  font-family: 'GTAmericaTrialULtIt';
+  src: url('fonts/GTAmericaTrial-ULtIt.woff2') format('woff2'), url('fonts/GTAmericaTrial-ULtIt.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
   font-display: swap;
 }
