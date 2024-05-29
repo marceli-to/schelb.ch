@@ -10,3 +10,10 @@ main {
   @apply flex-1;
 }
 
+/* Order */
+.lg\:pos-1 { @apply lg:order-1; }
+.lg\:pos-2 { @apply lg:order-2; }
+.lg\:pos-3 { @apply lg:order-3; }
+.lg\:pos-4 { @apply lg:order-4; }
+.lg\:pos-5 { @apply lg:order-5; }
+.lg\:pos-6 { @apply lg:order-6; }

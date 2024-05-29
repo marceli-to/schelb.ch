@@ -2,18 +2,30 @@ tree:
   -
     id: 501bf2fb-8d8b-4c84-b525-f5b8afe0e470
     entry: ad9bf80c-82f5-428a-8cf4-702fd364fb52
+    data:
+      sort: pos-1
   -
     id: c8560415-2d8b-4f83-a9ab-9d5d04a347a2
     entry: 66f213d7-cafd-45de-8374-0721f1882791
+    data:
+      sort: pos-4
   -
     id: ef71a466-8c22-4f01-b8cf-0f7a6e6896bd
     entry: ff330d3c-2c07-4740-bfe3-d41866f3bd3f
+    data:
+      sort: pos-2
   -
     id: 18e630fe-643f-44d6-9b80-fe3ae21d9f0a
     entry: 8a3767a7-a282-45af-930f-5400df73a239
+    data:
+      sort: pos-5
   -
     id: d89bbee5-1678-41d3-9cbc-86ca4050bfcb
     entry: 990fcfd6-3ad3-4f6d-92e0-c6d8535c97d7
+    data:
+      sort: pos-3
   -
     id: fd7ae392-8711-4197-95b6-eb29350fe9f5
     entry: 42aba9e0-fa22-42ee-a8ae-eb40300c7d78
+    data:
+      sort: pos-6
