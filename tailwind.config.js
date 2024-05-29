@@ -18,6 +18,10 @@ export default {
         'xs': '480px',
       },
 
+      maxWidth: {
+        '8xl': '1440px',
+      },
+
       fontFamily: {
         'gt-light': ['GTAmericaULt', ...defaultTheme.fontFamily.sans],
         'gt-light-italic': ['GTAmericaTrialULtIt', ...defaultTheme.fontFamily.sans],
