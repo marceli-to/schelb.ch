@@ -1,0 +1,22 @@
+title: Teammitglied
+fields:
+  -
+    handle: image
+    field:
+      max_files: 1
+      container: assets
+      folder: team
+      type: assets
+      display: Portrait
+  -
+    handle: name
+    field:
+      type: text
+      display: Name
+      validate:
+        - required
+  -
+    handle: text
+    field:
+      type: textarea
+      display: Beschreibung

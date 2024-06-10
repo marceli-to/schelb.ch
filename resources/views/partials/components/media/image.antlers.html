@@ -1,4 +1,4 @@
-<figure>
+<figure class="{{ wrapperClass }}">
   <picture>
     {{ if (sizes | in_array('2xl')) }}
       <source media="(min-width: 1280px)" srcset="{{ glide:image preset="{{ preset ? '2xl-{{ preset }}-webp' : '2xl-webp' }}" }}" type="image/webp">
@@ -10,7 +10,7 @@
     {{ /if }}
     {{ if (sizes | in_array('lg')) }}
       <source media="(min-width: 768px)" srcset="{{ glide:image preset="{{ preset ? 'lg-{{ preset }}-webp' : 'lg-webp' }}" }}" type="image/webp">
-      <source media="(min-width: 768px)" srcset="{{ glide:image preset="{{ preset ? 'lg-{{ preset }}' : 'lg' }}" }} type="image/jpeg">
+      <source media="(min-width: 768px)" srcset="{{ glide:image preset="{{ preset ? 'lg-{{ preset }}' : 'lg' }}" }}" type="image/jpeg">
     {{ /if }}
     <source srcset="{{ glide:image preset="{{ preset ? 'md-{{ preset }}-webp' : 'md-webp' }}" }}" type="image/webp">
     <img 

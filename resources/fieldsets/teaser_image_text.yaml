@@ -1,12 +1,19 @@
 title: 'Bild/Text Teaser'
 fields:
   -
+    handle: teaser
+    field:
+      type: toggle
+      display: Teaser
+  -
     handle: title
     field:
       type: text
       display: Titel
       validate:
         - required
+      if:
+        teaser: 'equals true'
   -
     handle: link
     field:
@@ -14,11 +21,13 @@ fields:
         - pages
       type: link
       display: Link
+      if:
+        teaser: 'equals true'
   -
     handle: image_containers
     field:
       type: replicator
-      display: Bildcontainer
+      display: Bilder
       sets:
         image_container:
           display: Bilder
@@ -53,7 +62,7 @@ fields:
     field:
       max_sets: 1
       type: replicator
-      display: Textcontainer
+      display: Texte
       sets:
         text:
           display: Texte

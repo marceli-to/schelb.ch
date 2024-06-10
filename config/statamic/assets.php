@@ -129,21 +129,23 @@ return [
           'xl-focal-16-9' => ['w' => 1440, 'h' => 810, 'q' => 90, 'fit' => 'crop_focal'],
           '2xl-focal-16-9' => ['w' => 1680, 'h' => 945, 'q' => 90, 'fit' => 'crop_focal'],
 
-          // Focal point image, landscape (ratio 1.5)
-          'md-focal-landscape-webp' => ['w' => 768, 'h' => 512, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          'lg-focal-landscape-webp' => ['w' => 1280, 'h' => 854, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          'xl-focal-landscape-webp' => ['w' => 1440, 'h' => 960, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          '2xl-focal-landscape-webp' => ['w' => 1680, 'h' => 1120, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          'md-focal-landscape' => ['w' => 768, 'h' => 512, 'q' => 90, 'fit' => 'crop_focal'],
-          'lg-focal-landscape' => ['w' => 1280, 'h' => 854, 'q' => 90, 'fit' => 'crop_focal'],
+          // Focal point image (16:10)
+          'md-focal-16-10-webp' => ['w' => 768, 'h' => 480, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'lg-focal-16-10-webp' => ['w' => 1280, 'h' => 800, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'xl-focal-16-10-webp' => ['w' => 1440, 'h' => 900, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          '2xl-focal-16-10-webp' => ['w' => 1680, 'h' => 1050, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'md-focal-16-10' => ['w' => 768, 'h' => 480, 'q' => 90, 'fit' => 'crop_focal'],
+          'lg-focal-16-10' => ['w' => 1280, 'h' => 800, 'q' => 90, 'fit' => 'crop_focal'],
+          'xl-focal-16-10' => ['w' => 1440, 'h' => 900, 'q' => 90, 'fit' => 'crop_focal'],
+          '2xl-focal-16-10' => ['w' => 1680, 'h' => 1050, 'q' => 90, 'fit' => 'crop_focal'],
 
-          // Focal point image, landscape (ratio 1.5)
-          'md-focal-portrait-webp' => ['w' => 768, 'h' => 1066, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          'lg-focal-portrait-webp' => ['w' => 1280, 'h' => 1777, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          'xl-focal-portrait-webp' => ['w' => 1440, 'h' => 2000, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          '2xl-focal-portrait-webp' => ['w' => 1680, 'h' => 2333, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
-          'md-focal-portrait' => ['w' => 768, 'h' => 1066, 'q' => 90, 'fit' => 'crop_focal'],
-          'lg-focal-portrait' => ['w' => 1280, 'h' => 1777, 'q' => 90, 'fit' => 'crop_focal'],
+          // Focal point image (4:5)
+          'md-focal-4-5-webp' => ['w' => 768, 'h' => 960, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'lg-focal-4-5-webp' => ['w' => 1280, 'h' => 1600, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'xl-focal-4-5-webp' => ['w' => 1440, 'h' => 1800, 'q' => 90, 'fit' => 'crop_focal', 'fm' => 'webp'],
+          'md-focal-4-5' => ['w' => 768, 'h' => 960, 'q' => 90, 'fit' => 'crop_focal'],
+          'lg-focal-4-5' => ['w' => 1280, 'h' => 1600, 'q' => 90, 'fit' => 'crop_focal'],
+          'xl-focal-4-5' => ['w' => 1440, 'h' => 1800, 'q' => 90, 'fit' => 'crop_focal'],
           
           'max_upload_size' => ['w' => 4000, 'h' => 4000, 'fit' => 'max'],
 

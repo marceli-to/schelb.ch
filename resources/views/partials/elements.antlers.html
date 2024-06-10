@@ -1,9 +1,7 @@
-{{ if type == 'text' }}
-
+{{ if type == 'image_text' }}
+  {{ partial:components/elements/image_text }}
 {{ /if }}
 
-{{ if type == 'teaser_image_text' }}
-  {{ partial:components/teaser/image_text }}
+{{ if type == 'team' }}
+  {{ partial:components/elements/team }}
 {{ /if }}
-
-

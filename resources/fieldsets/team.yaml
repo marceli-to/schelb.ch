@@ -1,0 +1,19 @@
+title: Team
+fields:
+  -
+    handle: team_member
+    field:
+      type: replicator
+      display: Mitglied
+      collapse: true
+      sets:
+        team_member:
+          display: Mitglied
+          icon: text-formatting-image-top
+          sets:
+            team_member:
+              display: Mitglied
+              icon: text-formatting-image-top
+              fields:
+                -
+                  import: team_member

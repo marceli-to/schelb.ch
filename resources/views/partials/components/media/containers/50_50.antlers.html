@@ -3,14 +3,14 @@
     {{ partial:components/media/image 
       image="{{ image_left }}" 
       class="w-full h-auto object-cover"
-      :sizes="['lg']"
+      :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
       preset="focal-4-3" }}
   </div>
   <div class="md:col-span-3">
     {{ partial:components/media/image 
       image="{{ image_right }}" 
       class="w-full h-auto object-cover"
-      :sizes="['lg']"
+      :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
       preset="focal-4-3" }}
   </div>
 </div>

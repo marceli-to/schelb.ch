@@ -4,7 +4,7 @@ blueprint: page
 title: Home
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718034184
+updated_at: 1718048602
 show_maps: false
 page_elements:
   -
@@ -23,7 +23,13 @@ page_elements:
         image_portrait: schelb.ch-projekte-brunnen.jpg
         type: image_container_66_33
         enabled: true
-    type: teaser_image_text
+      -
+        id: lx9cd9mk
+        image_landscape_left: schelb.ch-projekte-dino-zuschnitt.jpg
+        image_landscape_right: schelb.ch-projekte-netze.jpg
+        type: image_container_50_50
+        enabled: true
+    type: image_text
     enabled: true
     text_container:
       -
@@ -32,6 +38,7 @@ page_elements:
         type: text_container_100
         enabled: true
     link: 'entry::ad9bf80c-82f5-428a-8cf4-702fd364fb52'
+    teaser: true
   -
     id: lx94xlkj
     title: Aktuell
@@ -48,6 +55,26 @@ page_elements:
         text: 'Die Riesenschlange am Fusse eines UNESCO Weltkulturerbe – dem Castello Montebello in Bellinzona – durften wir soeben fertigstellen.'
         type: text_container_100
         enabled: true
-    type: teaser_image_text
+    type: image_text
+    enabled: true
+    teaser: true
+  -
+    id: lx9drmam
+    teaser: true
+    title: Team
+    link: 'entry::990fcfd6-3ad3-4f6d-92e0-c6d8535c97d7'
+    image_containers:
+      -
+        id: lx9drvpz
+        image: schelb.ch-team-illustration.jpg
+        type: image_container_100
+        enabled: true
+    text_container:
+      -
+        id: lx9drzja
+        text: 'Unser Team besteht aus geschickten Gestalterinnen, Zeichnern, Werklehrern, Künstlerinnen, Technikern, Handwerkerinnen sowie Bildhauern und bildet eine perfekte Crew aus Allroundern, die Freude an verspielten Ideen für Gross und Klein haben.'
+        type: text_container_100
+        enabled: true
+    type: image_text
     enabled: true
 ---

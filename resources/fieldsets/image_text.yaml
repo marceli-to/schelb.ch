@@ -1,0 +1,82 @@
+title: Bild/Text
+fields:
+  -
+    handle: teaser
+    field:
+      type: toggle
+      display: Teaser
+  -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      validate:
+        - 'required_if:teaser,true'
+      if:
+        teaser: 'equals true'
+  -
+    handle: link
+    field:
+      collections:
+        - pages
+      type: link
+      display: Link
+      if:
+        teaser: 'equals true'
+  -
+    handle: image_containers
+    field:
+      type: replicator
+      display: Bilder
+      sets:
+        image_container:
+          display: Bilder
+          icon: media-image-picture-gallery
+          sets:
+            image_container_100:
+              display: 'Bild quer (ganze Breite)'
+              icon: media-image-picture-orientation
+              fields:
+                -
+                  import: image_container_100
+            image_container_50_50:
+              display: 'Bilder quer (2 Bilder)'
+              icon: media-image-picture-gallery
+              fields:
+                -
+                  import: image_container_50_50
+            image_container_33_66:
+              display: 'Bild hoch/Bild quer'
+              icon: media-image-picture-gallery
+              fields:
+                -
+                  import: image_container_33_66
+            image_container_66_33:
+              display: 'Bild quer/Bild hoch'
+              icon: media-image-picture-gallery
+              fields:
+                -
+                  import: image_container_66_33
+  -
+    handle: text_container
+    field:
+      max_sets: 1
+      type: replicator
+      display: Texte
+      sets:
+        text:
+          display: Texte
+          icon: text-formatting-initial-letter
+          sets:
+            text_container_100:
+              display: 'Text (1 Spalte)'
+              icon: text-formatting-initial-letter
+              fields:
+                -
+                  import: text_container_100
+            text_container_50_50:
+              display: 'Texte (2 Spalten)'
+              icon: text-formatting-initial-letter
+              fields:
+                -
+                  import: text_container_50_50

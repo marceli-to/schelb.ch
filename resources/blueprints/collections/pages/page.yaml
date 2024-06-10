@@ -21,17 +21,24 @@ tabs:
               type: replicator
               display: Inhalte
               localizable: true
+              collapse: true
               sets:
                 main_elements:
                   display: Hauptelemente
                   icon: addon-boxes-stack
                   sets:
-                    teaser_image_text:
-                      display: 'Bild/Text Teaser'
+                    image_text:
+                      display: Bild/Text
                       icon: text-formatting-image-top
                       fields:
                         -
-                          import: teaser
+                          import: image_text
+                    team:
+                      display: Team
+                      icon: dashboard-layout
+                      fields:
+                        -
+                          import: team
   seo:
     display: SEO
     sections:
