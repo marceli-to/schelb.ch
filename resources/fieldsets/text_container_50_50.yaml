@@ -1,0 +1,14 @@
+title: 'Textcontainer (2 Spalten)'
+fields:
+  -
+    handle: text_left
+    field:
+      type: textarea
+      display: 'Text links (Überschrift)'
+      width: 50
+  -
+    handle: text_right
+    field:
+      type: textarea
+      display: 'Text rechts (Absatz)'
+      width: 50

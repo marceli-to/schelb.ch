@@ -1,0 +1,16 @@
+<div class="md:grid md:grid-cols-6 md:gap-x-20">
+  <div class="md:col-span-2 mb-20 md:mb-0">
+    {{ partial:components/media/image 
+      image="{{ image_left }}" 
+      class="w-full h-auto object-cover aspect-[470/637] max-w-[85%] md:max-w-none"
+      :sizes="['lg']"
+      preset="focal-portrait" }}
+  </div>
+  <div class="md:col-span-4">
+    {{ partial:components/media/image 
+      image="{{ image_right }}" 
+      class="w-full h-auto object-cover aspect-[980/650]"
+      :sizes="['lg']"
+      preset="focal-landscape" }}
+  </div>
+</div>

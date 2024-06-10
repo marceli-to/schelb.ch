@@ -55,3 +55,6 @@ preferences:
         - email
         - location
   theme: light
+  assets:
+    assets:
+      mode: grid

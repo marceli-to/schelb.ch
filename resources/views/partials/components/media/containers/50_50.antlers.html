@@ -1,0 +1,16 @@
+<div class="md:grid md:grid-cols-6 md:gap-x-20">
+  <div class="md:col-span-3">
+    {{ partial:components/media/image 
+      image="{{ image_left }}" 
+      class="w-full h-auto object-cover"
+      :sizes="['lg']"
+      preset="focal-4-3" }}
+  </div>
+  <div class="md:col-span-3">
+    {{ partial:components/media/image 
+      image="{{ image_right }}" 
+      class="w-full h-auto object-cover"
+      :sizes="['lg']"
+      preset="focal-4-3" }}
+  </div>
+</div>

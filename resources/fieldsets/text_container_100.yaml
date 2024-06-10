@@ -1,0 +1,7 @@
+title: 'Textcontainer (1 Spalte)'
+fields:
+  -
+    handle: text
+    field:
+      type: textarea
+      display: Text

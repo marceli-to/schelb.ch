@@ -24,7 +24,7 @@ export default {
 
       fontFamily: {
         'gt-light': ['GTAmericaULt', ...defaultTheme.fontFamily.sans],
-        'gt-light-italic': ['GTAmericaTrialULtIt', ...defaultTheme.fontFamily.sans],
+        'gt-light-italic': ['GTAmericaULtIt', ...defaultTheme.fontFamily.sans],
       },
 
       fontSize: {

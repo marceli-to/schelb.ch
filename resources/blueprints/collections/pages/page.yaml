@@ -14,40 +14,24 @@ tabs:
               validate:
                 - required
               display: Titel
-              instructions_position: above
-              listable: hidden
-              visibility: visible
-              replicator_preview: true
-              input_type: text
-              antlers: false
-              hide_display: false
               localizable: true
           -
             handle: page_elements
             field:
-              collapse: false
-              previews: true
-              fullscreen: true
-              sets:
-                content_elements:
-                  display: 'Content elements'
-                  instructions: null
-                  icon: null
-                  sets:
-                    neues_set:
-                      display: 'Neues Set'
-                      instructions: null
-                      icon: null
-                      fields: {  }
               type: replicator
               display: Inhalte
-              icon: replicator
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
               localizable: true
+              sets:
+                main_elements:
+                  display: Hauptelemente
+                  icon: addon-boxes-stack
+                  sets:
+                    teaser_image_text:
+                      display: 'Bild/Text Teaser'
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: teaser
   seo:
     display: SEO
     sections:

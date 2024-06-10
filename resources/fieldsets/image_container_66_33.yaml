@@ -1,0 +1,18 @@
+title: 'Bildcontainer (1 x quer, 1 x hoch)'
+fields:
+  -
+    handle: image_landscape
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: 'Bild (quer)'
+      width: 66
+  -
+    handle: image_portrait
+    field:
+      max_files: 1
+      container: assets
+      type: assets
+      display: 'Bild (hoch)'
+      width: 33
