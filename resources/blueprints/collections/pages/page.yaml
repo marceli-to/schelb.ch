@@ -33,12 +33,19 @@ tabs:
                       fields:
                         -
                           import: image_text
+                special_elements:
+                  display: Spezialelemente
+                  icon: addon-boxes-stack
+                  sets:
                     team:
                       display: Team
                       icon: dashboard-layout
                       fields:
                         -
                           import: team
+                    neues_set:
+                      display: 'Neues Set'
+                      fields: {  }
   seo:
     display: SEO
     sections:

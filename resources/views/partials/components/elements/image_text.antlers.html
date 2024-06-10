@@ -1,6 +1,8 @@
 {{ partial:layout/article }}
   {{ if link }}
-    <a href="{{ link:url }}" title="{{ title }}">
+    <a 
+      href="{{ link:url }}" 
+      title="{{ title }}">
   {{ /if }}
     {{ partial:components/headings/h1 title="{{ title }}" class="mb-15 md:mb-30 lg:mb-50" }}
 
@@ -13,20 +15,20 @@
 
         {{ if type == 'image_container_50_50' }}
           {{ partial:components/media/containers/50_50 
-            image_left="{{ image_landscape_left }}" 
-            image_right="{{ image_landscape_right }}" }}
+            :image_left="image_landscape_left" 
+            :image_right="image_landscape_right" }}
         {{ /if }}
 
         {{ if type == 'image_container_33_66' }}
           {{ partial:components/media/containers/33_66 
-            image_left="{{ image_portrait }}" 
-            image_right="{{ image_landscape }}" }}
+            :image_left="image_portrait" 
+            :image_right="image_landscape" }}
         {{ /if }}
 
         {{ if type == 'image_container_66_33' }}
           {{ partial:components/media/containers/66_33 
-            image_left="{{ image_landscape }}" 
-            image_right="{{ image_portrait }}" }}
+            :image_left="image_landscape" 
+            :image_right="image_portrait" }}
         {{ /if }}
 
       {{ /image_containers }}
@@ -37,7 +39,7 @@
       {{ text_container }}
 
         {{ if type == 'text_container_100' }}
-          <p class="text-md md:text-lg leading-[1.15] md:leading-[1.125] md:max-w-[75%]">
+          <p class="text-lead md:max-w-[75%]">
             {{ text }}
           </p>
         {{ /if }}

@@ -1,13 +1,14 @@
 {{ partial:layout/article }}
   {{ partial:layout/grid class="gap-y-50" }}
     {{ team_member }}
-      {{ partial:layout/span class="md:!col-span-2 mb-25 md:mb-0 last-of-type:mb-0 text-xs lg:text-sm leading-[1.25]" }}
+      {{ partial:layout/span class="text-subinfo md:!col-span-2 mb-25 md:mb-0 last-of-type:mb-0" }}
         {{ partial:components/media/image 
           class="w-full h-auto object-cover"
           :sizes="['lg']"
+          alt="{{ name }}"
           class="aspect-[4/3]"
           preset="focal-4-3" }}
-        <h2 class="mt-15 md:mt-30">{{ name }}</h2>
+        <h2 class="mt-12 md:mt-25">{{ name }}</h2>
         <p>{{ text | nl2br }}</p>
       {{ /partial:layout/span }}
     {{ /team_member }}

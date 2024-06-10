@@ -10,6 +10,19 @@ main {
   @apply flex-1;
 }
 
+/* Text */
+.text-title {
+  @apply text-xl md:text-2xl lg:text-3xl leading-[1.1];
+}
+
+.text-lead {
+  @apply text-md md:text-lg leading-[1.15] md:leading-[1.125];
+}
+
+.text-subinfo {
+  @apply text-xxs md:text-xs lg:text-sm leading-[1.25];
+}
+
 /* Order */
 .lg\:pos-1 { @apply lg:order-1; }
 .lg\:pos-2 { @apply lg:order-2; }
