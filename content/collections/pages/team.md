@@ -4,7 +4,7 @@ blueprint: page
 title: Team
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718050211
+updated_at: 1718136528
 page_elements:
   -
     id: lx9dbwdf
@@ -18,7 +18,15 @@ page_elements:
     text_container:
       -
         id: lx9dcm3o
-        text: 'Unser Team besteht aus geschickten Gestalterinnen, Zeichnern, Werklehrern, Künstlerinnen, Technikern, Handwerkerinnen sowie Bildhauern und bildet eine perfekte Crew aus Allroundern, die Freude an verspielten Ideen für Gross und Klein haben.'
+        text:
+          -
+            type: paragraph
+            attrs:
+              class: text-lead
+            content:
+              -
+                type: text
+                text: 'Unser Team besteht aus geschickten Gestalterinnen, Zeichnern, Werklehrern, Künstlerinnen, Technikern, Handwerkerinnen sowie Bildhauern und bildet eine perfekte Crew aus Allroundern, die Freude an verspielten Ideen für Gross und Klein haben.'
         type: text_container_100
         enabled: true
     type: image_text
@@ -107,6 +115,125 @@ page_elements:
         text: 'Knüpft Netze und zeichnet CAD Pläne. Ist gelernte Dekorationsgestalterin und leidenschaftliche Handwerkerin.'
         type: team_member
         enabled: true
+  -
+    id: lxa4trlr
+    partner_list:
+      -
+        id: lxa4tvqa
+        partner:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Holzbau:'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Zimmerei Oberhänsli'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Wood Room GmbH'
+        type: partner_list
+        enabled: true
+      -
+        id: lxa4umbh
+        partner:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Metallbau:'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'à faire Metallwerkstatt'
+        type: partner_list
+        enabled: true
+      -
+        id: lxa4utui
+        partner:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Sicherheitsberatung:'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Swiss Safety Center'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Spielplatzzone AG'
+        type: partner_list
+        enabled: true
+      -
+        id: lxa4v2m8
+        partner:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Seile:'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Seilerei Kieslig'
+        type: partner_list
+        enabled: true
+      -
+        id: lxa4vch9
+        partner:
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                text: 'Allerlei:'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Richter Spielgeräte GmbH'
+              -
+                type: hardBreak
+              -
+                type: text
+                text: 'Hat auch einige Entwürfe von F.Schelb im Programm'
+        type: partner_list
+        enabled: true
+    type: network
+    enabled: true
+    text:
+      -
+        type: paragraph
+        attrs:
+          class: text-lead
+        content:
+          -
+            type: text
+            text: 'Wir bevorzugen die Zusammenarbeit mit lokalen Lieferanten und bewährten Handwerkern unseres Vertrauens.'
 open_graph_description: 'Unser Team besteht aus geschickten Gestalterinnen, Zeichnern, Werklehrern, Künstlerinnen, Technikern, Handwerkerinnen sowie Bildhauern und bildet eine perfekte Crew aus Allroundern, die Freude an verspielten Ideen für Gross und Klein haben.'
 open_graph_image: schelb.ch-team-illustration.jpg
 parent: f9e8c908-e52e-4893-a273-2c2925ec481d

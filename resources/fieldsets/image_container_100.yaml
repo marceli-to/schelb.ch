@@ -6,4 +6,4 @@ fields:
       max_files: 1
       container: assets
       type: assets
-      display: 'Bild (quer)'
+      display: 'Bild'

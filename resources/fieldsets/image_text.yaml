@@ -1,40 +1,18 @@
 title: Bild/Text
 fields:
   -
-    handle: teaser
-    field:
-      type: toggle
-      display: Teaser
-  -
-    handle: title
-    field:
-      type: text
-      display: Titel
-      validate:
-        - 'required_if:teaser,true'
-      if:
-        teaser: 'equals true'
-  -
-    handle: link
-    field:
-      collections:
-        - pages
-      type: link
-      display: Link
-      if:
-        teaser: 'equals true'
-  -
     handle: image_containers
     field:
       type: replicator
-      display: Bilder
+      display: Bild(er)
+      collapse: true
       sets:
         image_container:
           display: Bilder
           icon: media-image-picture-gallery
           sets:
             image_container_100:
-              display: 'Bild quer (ganze Breite)'
+              display: 'Bild (ganze Breite)'
               icon: media-image-picture-orientation
               fields:
                 -
@@ -63,6 +41,7 @@ fields:
       max_sets: 1
       type: replicator
       display: Texte
+      collapse: true
       sets:
         text:
           display: Texte
@@ -75,8 +54,31 @@ fields:
                 -
                   import: text_container_100
             text_container_50_50:
-              display: 'Texte (2 Spalten)'
+              display: 'Text (2 Spalten)'
               icon: text-formatting-initial-letter
               fields:
                 -
                   import: text_container_50_50
+  -
+    handle: teaser
+    field:
+      type: toggle
+      display: Teaser
+  -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      validate:
+        - 'required_if:teaser,true'
+      if:
+        teaser: 'equals true'
+  -
+    handle: link
+    field:
+      collections:
+        - pages
+      type: link
+      display: Link
+      if:
+        teaser: 'equals true'

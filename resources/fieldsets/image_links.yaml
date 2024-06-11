@@ -1,4 +1,4 @@
-title: 'Bild/Text Teaser'
+title: Bild/Links
 fields:
   -
     handle: teaser
@@ -10,8 +10,6 @@ fields:
     field:
       type: text
       display: Titel
-      validate:
-        - required
       if:
         teaser: 'equals true'
   -
@@ -27,56 +25,75 @@ fields:
     handle: image_containers
     field:
       type: replicator
-      display: Bilder
+      display: Bild(er)
       sets:
         image_container:
           display: Bilder
           icon: media-image-picture-gallery
           sets:
             image_container_100:
-              display: 'Bildcontainer (Bild quer, ganze Breite)'
+              display: 'Bild (ganze Breite)'
               icon: media-image-picture-orientation
               fields:
                 -
                   import: image_container_100
             image_container_50_50:
-              display: 'Bildcontainer (2 Bilder quer)'
+              display: 'Bilder quer (2 Bilder)'
               icon: media-image-picture-gallery
               fields:
                 -
                   import: image_container_50_50
             image_container_33_66:
-              display: 'Bildcontainer (1 Bild hoch, 1 Bild quer)'
+              display: 'Bild hoch/Bild quer'
               icon: media-image-picture-gallery
               fields:
                 -
                   import: image_container_33_66
             image_container_66_33:
-              display: 'Bildcontainer (1 Bild quer, 1 Bild hoch)'
+              display: 'Bild quer/Bild hoch'
               icon: media-image-picture-gallery
               fields:
                 -
                   import: image_container_66_33
   -
-    handle: text_container
+    handle: links_left_column
     field:
-      max_sets: 1
       type: replicator
-      display: Texte
+      display: 'Links (linke Spalte)'
+      width: 50
       sets:
-        text:
-          display: Texte
-          icon: text-formatting-initial-letter
+        neue_set-gruppe:
+          display: 'Neue Set-Gruppe'
           sets:
-            text_container_100:
-              display: 'Textcontainer (1 Spalte)'
-              icon: text-formatting-initial-letter
+            link:
+              display: Link
+              icon: link
               fields:
                 -
-                  import: text_container_100
-            text_container_50_50:
-              display: 'Textcontainer (2 Spalten)'
-              icon: text-formatting-initial-letter
+                  handle: link
+                  field:
+                    collections:
+                      - pages
+                    type: link
+                    display: Link
+  -
+    handle: links_right_column
+    field:
+      type: replicator
+      display: 'Links (rechte Spalte)'
+      width: 50
+      sets:
+        neue_set-gruppe:
+          display: 'Neue Set-Gruppe'
+          sets:
+            link:
+              display: Link
+              icon: link
               fields:
                 -
-                  import: text_container_50_50
+                  handle: link
+                  field:
+                    collections:
+                      - pages
+                    type: link
+                    display: Link

@@ -1,16 +1,16 @@
-<div class="md:grid md:grid-cols-6 md:gap-x-20">
-  <div class="md:col-span-3">
+{{ partial:layout/grid }}
+  {{ partial:layout/span }}
     {{ partial:components/media/image 
       :image="image_left" 
       class="w-full h-auto object-cover"
       :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
       preset="focal-4-3" }}
-  </div>
-  <div class="md:col-span-3">
+  {{ partial:layout/span }}
+  {{ partial:layout/span }}
     {{ partial:components/media/image 
       :image="image_right" 
       class="w-full h-auto object-cover"
       :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
       preset="focal-4-3" }}
-  </div>
-</div>
+  {{ partial:layout/span }}
+{{ /partial:layout/grid }}

@@ -1,9 +1,7 @@
 {{ partial:layout/article }}
-  {{ if link }}
-    <a 
-      href="{{ link:url }}" 
-      title="{{ title }}">
-  {{ /if }}
+{{ if link }}
+  <a href="{{ link:url }}"  title="{{ title }}">
+{{ /if }}
     {{ partial:components/headings/h1 title="{{ title }}" class="mb-15 md:mb-30 lg:mb-50" }}
 
     <div class="space-y-20">
@@ -33,31 +31,28 @@
 
       {{ /image_containers }}
     </div>
-
-    <div class="mt-15 md:mt-30">
-
-      {{ text_container }}
-
-        {{ if type == 'text_container_100' }}
-          <div>
-            {{ text }}
-          </div>
-        {{ /if }}
-
-        {{ if type == 'text_container_50_50' }}
-          {{ partial:layout/grid }}
-            {{ partial:layout/span }}
-              {{ text_left }}
-            {{ /partial:layout/span }}
-            {{ partial:layout/span }}
-              {{ text_right }}
-            {{ /partial:layout/span }}
-          {{ /partial:layout/grid }}
-        {{ /if }}
-      {{ /text_container }}
-
+{{ if link }}
+  </a>
+{{ /if }}
+  <div class="md:grid md:grid-cols-6 md:gap-x-20 mt-15 md:mt-30 text-md lg:text-lg">
+    <div class="md:col-span-3">
+      {{ links_left_column }}
+        <a 
+          href="{{ link:url }}"
+          class="block py-2 w-full border-t border-t-black hover:font-gt-light-italic">
+          {{ link:title }}
+        </a>
+      {{ /links_left_column }}
     </div>
-  {{ if link }}
-    </a>
-  {{ /if }}
+    <div class="md:col-span-3">
+      {{ links_right_column }}
+        <a 
+          href="{{ link:url }}"
+          class="block py-2 w-full border-t border-t-black hover:font-gt-light-italic">
+          {{ link:title }}
+        </a>
+      {{ /links_right_column }}
+    </div>
+    {{ links_left_column }}
+  </div>
 {{ /partial:layout/article }}

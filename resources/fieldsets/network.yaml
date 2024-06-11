@@ -1,0 +1,29 @@
+title: Netzwerk
+fields:
+  -
+    import: editor
+  -
+    handle: partner_list
+    field:
+      type: replicator
+      display: Partner
+      collapse: true
+      sets:
+        neue_set-gruppe:
+          display: 'Neue Set-Gruppe'
+          sets:
+            partner_list:
+              display: Partner
+              icon: user-multiple
+              fields:
+                -
+                  handle: partner
+                  field:
+                    buttons:
+                      - italic
+                      - removeformat
+                      - anchor
+                    toolbar_mode: floating
+                    remove_empty_nodes: true
+                    type: bard
+                    display: Partner

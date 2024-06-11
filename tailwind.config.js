@@ -33,10 +33,11 @@ export default {
         'sm': '1.125rem',     // 18px
         'base': '1.375rem',   // 22px
         'md': '1.625rem',     // 26px
-        'lg': '2.5rem',       // 40px
-        'xl': '3.125rem',     // 50px
-        '2xl': '5rem',        // 80px
-        '3xl': '6.25rem',     // 100px
+        'lg': '2.1875rem',    // 35px
+        'xl': '2.5rem',       // 40px
+        '2xl': '3.125rem',     // 50px
+        '3xl': '5rem',        // 80px
+        '4xl': '6.25rem',     // 100px
       },
       
       zIndex: {

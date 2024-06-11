@@ -27,25 +27,46 @@ tabs:
                   display: Hauptelemente
                   icon: addon-boxes-stack
                   sets:
+                    text:
+                      display: Text
+                      icon: text-formatting-markdown
+                      fields:
+                        -
+                          import: editor
+                    single_image:
+                      display: Bild
+                      icon: media-image-picture-orientation
+                      fields:
+                        -
+                          import: image_container_100
                     image_text:
                       display: Bild/Text
                       icon: text-formatting-image-top
                       fields:
                         -
                           import: image_text
+                    image_links:
+                      display: Bild/Links
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: image_links
                 special_elements:
                   display: Spezialelemente
                   icon: addon-boxes-stack
                   sets:
                     team:
-                      display: Team
+                      display: 'Team – Mitglieder'
                       icon: dashboard-layout
                       fields:
                         -
                           import: team
-                    neues_set:
-                      display: 'Neues Set'
-                      fields: {  }
+                    network:
+                      display: 'Team – Netzwerk'
+                      icon: text-formatting-initial-letter
+                      fields:
+                        -
+                          import: network
   seo:
     display: SEO
     sections:
