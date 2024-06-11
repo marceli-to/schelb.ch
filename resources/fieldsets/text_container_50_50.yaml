@@ -3,37 +3,26 @@ fields:
   -
     handle: text_left
     field:
-      type: textarea
-      display: 'Text links (Lead)'
-      width: 50
-  -
-    handle: text_right
-    field:
-      type: textarea
-      display: 'Text rechts (Absatz)'
-      width: 50
-  -
-    handle: text_left_n
-    field:
       buttons:
         - h2
         - italic
         - removeformat
-        - table
         - lead
+        - subinfo
       remove_empty_nodes: false
       type: bard
       display: 'Text links'
       width: 50
   -
-    handle: text_right_n
+    handle: text_right
     field:
       buttons:
+        - h2
         - italic
-        - unorderedlist
         - removeformat
         - anchor
         - lead
+        - subinfo
       remove_empty_nodes: false
       type: bard
       display: 'Text rechts'

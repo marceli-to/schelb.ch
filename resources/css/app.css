@@ -30,7 +30,12 @@ h1,
 
 h2,
 .text-lead {
-  @apply text-md md:text-xl leading-[1.15] md:leading-[1.125] md:max-w-[80%];
+  @apply text-md md:text-xl leading-[1.15] md:leading-[1.125];
+}
+
+.is-teaser h2,
+.is-teaser .text-lead {
+  @apply max-w-[80%];
 }
 
 .text-subinfo {

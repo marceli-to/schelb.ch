@@ -1,4 +1,4 @@
-{{ partial:layout/article }}
+{{ partial:layout/article class="{{ teaser ? 'is-teaser' : '' }}" }}
   {{ if link }}
     <a 
       href="{{ link:url }}" 
