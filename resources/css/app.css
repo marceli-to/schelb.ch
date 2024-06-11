@@ -23,10 +23,12 @@ main p a {
 }
 
 /* Text */
+h1,
 .text-title {
   @apply text-2xl md:text-3xl lg:text-4xl leading-[1.1];
 }
 
+h2,
 .text-lead {
   @apply text-md md:text-xl leading-[1.15] md:leading-[1.125] md:max-w-[80%];
 }

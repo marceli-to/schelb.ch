@@ -4,7 +4,7 @@ blueprint: page
 title: Team
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718136528
+updated_at: 1718137697
 page_elements:
   -
     id: lx9dbwdf
@@ -20,9 +20,9 @@ page_elements:
         id: lx9dcm3o
         text:
           -
-            type: paragraph
+            type: heading
             attrs:
-              class: text-lead
+              level: 2
             content:
               -
                 type: text
@@ -227,9 +227,9 @@ page_elements:
     enabled: true
     text:
       -
-        type: paragraph
+        type: heading
         attrs:
-          class: text-lead
+          level: 2
         content:
           -
             type: text

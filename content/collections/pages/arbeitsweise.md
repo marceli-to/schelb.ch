@@ -4,7 +4,7 @@ blueprint: page
 title: Arbeitsweise
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718137252
+updated_at: 1718137671
 page_elements:
   -
     id: lxaj367z
@@ -22,9 +22,9 @@ page_elements:
         id: lxaujjwa
         text:
           -
-            type: paragraph
+            type: heading
             attrs:
-              class: text-lead
+              level: 2
             content:
               -
                 type: text
