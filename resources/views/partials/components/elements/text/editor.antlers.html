@@ -1,14 +1,23 @@
 {{ partial:layout/article }}
-{{ if type == 'text_columns' }}
-{{ partial:layout/grid }}
-  {{ partial:layout/span }}
-    {{ text_left }}
-  {{ /partial:layout/span }}
-  {{ partial:layout/span }}
-    {{ text_right }}
-  {{ /partial:layout/span }}
-{{ /partial:layout/grid }}
-{{ else }}
-  {{ text }}
-{{ /if }}
+
+  {{ if type == 'text_columns' }}
+
+    {{ partial:layout/grid }}
+
+      {{ partial:layout/span }}
+        {{ text_left }}
+      {{ /partial:layout/span }}
+
+      {{ partial:layout/span }}
+        {{ text_right }}
+      {{ /partial:layout/span }}
+
+    {{ /partial:layout/grid }}
+
+  {{ else }}
+
+    {{ text }}
+
+  {{ /if }}
+
 {{ /partial:layout/article }}
