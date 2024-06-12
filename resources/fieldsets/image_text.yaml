@@ -1,6 +1,13 @@
 title: Bild/Text
 fields:
   -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      validate:
+        - 'required_if:teaser,true'
+  -
     handle: image_containers
     field:
       type: replicator
@@ -38,7 +45,6 @@ fields:
   -
     handle: text_container
     field:
-      max_sets: 1
       type: replicator
       display: Texte
       collapse: true
@@ -64,15 +70,6 @@ fields:
     field:
       type: toggle
       display: Teaser
-  -
-    handle: title
-    field:
-      type: text
-      display: Titel
-      validate:
-        - 'required_if:teaser,true'
-      if:
-        teaser: 'equals true'
   -
     handle: link
     field:

@@ -10,7 +10,7 @@
       {{ image_containers }}
 
         {{ if type == 'image_container_100' }}
-          {{ partial:components/media/containers/100 image="{{ image }}" }}
+          {{ partial:components/media/containers/100 :image="image" }}
         {{ /if }}
 
         {{ if type == 'image_container_50_50' }}
@@ -46,7 +46,7 @@
 
         {{ if type == 'text_container_50_50' }}
           {{ partial:layout/grid }}
-            {{ partial:layout/span }}
+            {{ partial:layout/span class="mb-20 md:mb-0" }}
               {{ text_left }}
             {{ /partial:layout/span }}
             {{ partial:layout/span }}
