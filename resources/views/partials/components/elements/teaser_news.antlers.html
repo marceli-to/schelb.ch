@@ -1,5 +1,5 @@
 {{ partial:layout/article class="is-teaser" }}
-  <a href="/aktuell" title="Aktuell">
+  <a href="/aktuell/#{{news_article:slug}}" title="Aktuell">
     {{ partial:components/headings/h1 title="Aktuell" class="mb-15 md:mb-30 lg:mb-50" }}
 
     {{ partial:components/media/containers/100 :image="news_article:main_image" }}
