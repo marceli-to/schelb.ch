@@ -4,7 +4,7 @@ blueprint: page
 title: Arbeitsweise
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718139559
+updated_at: 1718174093
 page_elements:
   -
     id: lxaj367z
@@ -41,4 +41,5 @@ page_elements:
         type: text_container_50_50
         enabled: true
 parent: f9e8c908-e52e-4893-a273-2c2925ec481d
+template: work
 ---

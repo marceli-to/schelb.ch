@@ -42,6 +42,15 @@ h2,
   @apply text-xxs md:text-xs lg:text-sm leading-[1.25];
 }
 
+/* Filters */
+.filter-button {
+  @apply flex justify-between items-center py-1 w-full border-t border-t-black;
+}
+
+.filter-item {
+  @apply flex justify-between py-1 w-full border-t border-t-black hover:font-gt-light-italic
+}
+
 /* Order */
 .lg\:pos-1 { @apply lg:order-1; }
 .lg\:pos-2 { @apply lg:order-2; }
