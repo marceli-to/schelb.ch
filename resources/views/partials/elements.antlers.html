@@ -10,8 +10,8 @@
   {{ partial:components/elements/image/single }}
 {{ /if }}
 
-{{ if type == 'text' }}
-  {{ partial:components/elements/editor }}
+{{ if type == 'text' || type == 'text_columns'}}
+  {{ partial:components/elements/text/editor }}
 {{ /if }}
 
 {{ if type == 'team' }}

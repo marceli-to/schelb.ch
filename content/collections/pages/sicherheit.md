@@ -5,7 +5,7 @@ title: Sicherheit
 debug: false
 parent: 8a3767a7-a282-45af-930f-5400df73a239
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718182856
+updated_at: 1718184158
 page_elements:
   -
     id: lxbll21m
@@ -40,7 +40,7 @@ page_elements:
         type: text_container_50_50
         enabled: true
       -
-        id: lxblo91w
+        id: lxbmhc8h
         text_left:
           -
             type: heading
@@ -64,5 +64,29 @@ page_elements:
     teaser: false
     type: image_text
     enabled: true
+  -
+    id: lxbmao03
+    text_left:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Service (Instandhaltung)'
+    text_right:
+      -
+        type: paragraph
+        attrs:
+          class: null
+        content:
+          -
+            type: text
+            text: 'Für eigene Spielplätze und -anlagen bieten wir eine jährliche Basisinspektion nach EN 1176 an. Diese visuelle Kontrolle vor Ort beinhaltet das Erkennen von sicherheitsrelevanten Abnutzungen der Spielgeräte. In einem ausführlichen Zustandsbericht werden auch Massnahmen und Lösungsansätze zusammengefasst.'
+    type: text_columns
+    enabled: true
+open_graph_description: 'Die Sicherheit der Kinder auf unseren Spielplätzen hat für uns oberste Priorität. Die Einhaltung der aktuellen Normen EN 1176/1177 ist selbstverständlich und wird schriftlich bestätigt. Unsere qualifizierten Mitarbeiter*innen besitzen ein Zertifikat als «Qualifizierte Spielplatzfachkraft» und stehen in regelmäßigem Austausch mit zuständigen Experten und Chef-Sicherheitsdelegierten der bfu und des Swiss Safety Centers. Für größere Projekte arbeiten wir mit einer externen Zertifizierungsstelle zusammen, die die Spielanlagen zusätzlich kontrolliert und abnimmt.'
+open_graph_image: schelb.ch-sicherheit.jpg
 template: work
 ---

@@ -5,7 +5,7 @@ title: Partizipation
 debug: false
 parent: 8a3767a7-a282-45af-930f-5400df73a239
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718182571
+updated_at: 1718183654
 page_elements:
   -
     id: lxblhhxp
@@ -67,5 +67,7 @@ page_elements:
     teaser: false
     type: image_text
     enabled: true
+open_graph_description: 'Fördern Sie die Gemeinschaftsbeteiligung, indem Sie Kinder und ihre Bezugspersonen in die Planung, Gestaltung und den Bau von Spielplätzen einbeziehen. Dieser partizipative Ansatz schafft eine starke Verbindung zum neuen Spielbereich und kann Workshops zum kreativen Modellbau oder praktische Hilfe während der Bauzeit umfassen, mit Aktivitäten wie Bohren, Pflanzen und mehr. Wir arbeiten mit Wohnbaugenossenschaften, Elternvereinen und Schulleitungen zusammen, um diese Veranstaltungen erfolgreich zu gestalten und das Gemeinschaftsgefühl und die Verbundenheit zu stärken.'
+open_graph_image: schelb.ch-partizipation-1.jpg
 template: work
 ---

@@ -33,6 +33,12 @@ tabs:
                       fields:
                         -
                           import: editor
+                    text_columns:
+                      display: 'Text (2 Spalten)'
+                      icon: text-formatting-markdown
+                      fields:
+                        -
+                          import: text_container_50_50
                     single_image:
                       display: Bild
                       icon: media-image-picture-orientation

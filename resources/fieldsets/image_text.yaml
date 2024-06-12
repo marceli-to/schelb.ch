@@ -46,7 +46,7 @@ fields:
     handle: text_container
     field:
       type: replicator
-      display: Texte
+      display: Text(e)
       collapse: true
       sets:
         text:

@@ -4,7 +4,7 @@ blueprint: page
 title: Home
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718137641
+updated_at: 1718183722
 show_maps: false
 page_elements:
   -
@@ -140,4 +140,5 @@ page_elements:
                 text: 'Unser Team besteht aus geschickten Gestalterinnen, Zeichnern, Werklehrern, Künstlerinnen, Technikern, Handwerkerinnen sowie Bildhauern und bildet eine perfekte Crew aus Allroundern, die Freude an verspielten Ideen für Gross und Klein haben.'
     type: image_text
     enabled: true
+open_graph_image: schelb.ch-projekte-netze.jpg
 ---

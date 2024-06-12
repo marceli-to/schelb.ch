@@ -6,9 +6,9 @@
     {{ partial:layout/span }}
       <div class="space-y-10 md:space-y-25">
         {{ partner_list }}
-          <div class="border-t border-t-black pt-5">
+          {{ partial:components/elements/text/list-item }}
             {{ partner }}
-          </div>
+          {{ /partial:components/elements/text/list-item }}
         {{ /partner_list }}
       </div>
     {{ /partial:layout/span }}
