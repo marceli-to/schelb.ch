@@ -9,10 +9,11 @@ fields:
         - removeformat
         - lead
         - subinfo
-      remove_empty_nodes: false
+      remove_empty_nodes: true
       type: bard
       display: 'Text links'
       width: 50
+      toolbar_mode: floating
   -
     handle: text_right
     field:
@@ -23,7 +24,19 @@ fields:
         - anchor
         - lead
         - subinfo
-      remove_empty_nodes: false
+      remove_empty_nodes: true
       type: bard
       display: 'Text rechts'
       width: 50
+      toolbar_mode: floating
+      sets:
+        elements:
+          display: Elemente
+          icon: addon-boxes-stack
+          sets:
+            list_item:
+              display: Listen-Element
+              icon: file-content-list
+              fields:
+                -
+                  import: list_item

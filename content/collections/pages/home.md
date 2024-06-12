@@ -4,7 +4,7 @@ blueprint: page
 title: Home
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718183722
+updated_at: 1718205374
 show_maps: false
 page_elements:
   -
@@ -42,32 +42,10 @@ page_elements:
     link: 'entry::ad9bf80c-82f5-428a-8cf4-702fd364fb52'
     teaser: true
   -
-    id: lx94xlkj
-    title: Aktuell
-    link: 'entry::ff330d3c-2c07-4740-bfe3-d41866f3bd3f'
-    image_containers:
-      -
-        id: lx94xu79
-        image: schelb.ch-aktuell-castello-montebello.jpg
-        type: image_container_100
-        enabled: true
-    text_container:
-      -
-        id: lx953o1x
-        type: text_container_100
-        enabled: true
-        text:
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 'Die Riesenschlange am Fusse eines UNESCO Weltkulturerbe – dem Castello Montebello in Bellinzona – durften wir soeben fertigstellen.'
-    type: image_text
+    id: lxbz3z66
+    news_article: b284db24-4b82-459b-b529-94c7caf3f753
+    type: teaser_news
     enabled: true
-    teaser: true
   -
     id: lxadtfm9
     teaser: true

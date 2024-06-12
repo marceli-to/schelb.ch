@@ -5,7 +5,7 @@ title: Sicherheit
 debug: false
 parent: 8a3767a7-a282-45af-930f-5400df73a239
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718184158
+updated_at: 1718193633
 page_elements:
   -
     id: lxbll21m
@@ -74,16 +74,113 @@ page_elements:
         content:
           -
             type: text
-            text: 'Service (Instandhaltung)'
+            text: 'Weiterbildungen unseres Teams zum Thema Spielplatzsicherheit'
     text_right:
       -
-        type: paragraph
+        type: set
         attrs:
-          class: null
-        content:
-          -
-            type: text
-            text: 'Für eigene Spielplätze und -anlagen bieten wir eine jährliche Basisinspektion nach EN 1176 an. Diese visuelle Kontrolle vor Ort beinhaltet das Erkennen von sicherheitsrelevanten Abnutzungen der Spielgeräte. In einem ausführlichen Zustandsbericht werden auch Massnahmen und Lösungsansätze zusammengefasst.'
+          id: lxbs3nu8
+          values:
+            type: list_item
+            text:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'R. Moricca, Mitglied der Prüfungskommission, Zertifikat für 10-tägiger Lehrgang "Qualifizierte Spielplatzfachperson SSC", Swiss Safety Center, 2023'
+      -
+        type: set
+        attrs:
+          id: lxbs3um8
+          values:
+            type: list_item
+            text:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'D. Heim, Zertifikat für 3-tägiger Lehrgang "Qualifizierte Spielplatzfachkraft SSC", Swiss Safety Center, 2023'
+      -
+        type: set
+        attrs:
+          id: lxbs3ye7
+          values:
+            type: list_item
+            text:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'J. Nigg, Zertifikat für 3-tägiger Lehrgang "Qualifizierte Spielplatzfachkraft SSC", Swiss Safety Center, 2023'
+      -
+        type: set
+        attrs:
+          id: lxbs43mx
+          values:
+            type: list_item
+            text:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'T. Biveroni, Zertifikat für 3-tägiger Lehrgang "Fachkraft Spielplatzsicherheit", VSSG/bfu Zürich, 2021'
+      -
+        type: set
+        attrs:
+          id: lxbs46uh
+          values:
+            type: list_item
+            text:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'R. Zimmermann, Zertifikat für 3-tägiger Lehrgang "Fachkraft Spielplatzsicherheit", VSSG/bfu Zürich, 2019'
+      -
+        type: set
+        attrs:
+          id: lxbs4ajt
+          values:
+            type: list_item
+            text:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'S. Dobler, Zertifikat für 3-tägiger Lehrgang "Fachkraft Spielplatzsicherheit", VSSG/bfu Zürich, 2015'
+      -
+        type: set
+        attrs:
+          id: lxbs4dfw
+          values:
+            type: list_item
+            text:
+              -
+                type: paragraph
+                attrs:
+                  class: null
+                content:
+                  -
+                    type: text
+                    text: 'F. Schelb, Zertifikat "Fachkraft für den sicheren Kinderspielplatz", TüV Süd München, 2007'
     type: text_columns
     enabled: true
 open_graph_description: 'Die Sicherheit der Kinder auf unseren Spielplätzen hat für uns oberste Priorität. Die Einhaltung der aktuellen Normen EN 1176/1177 ist selbstverständlich und wird schriftlich bestätigt. Unsere qualifizierten Mitarbeiter*innen besitzen ein Zertifikat als «Qualifizierte Spielplatzfachkraft» und stehen in regelmäßigem Austausch mit zuständigen Experten und Chef-Sicherheitsdelegierten der bfu und des Swiss Safety Centers. Für größere Projekte arbeiten wir mit einer externen Zertifizierungsstelle zusammen, die die Spielanlagen zusätzlich kontrolliert und abnimmt.'

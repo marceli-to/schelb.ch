@@ -42,6 +42,11 @@ preferences:
         - floor
         - price
         - state
+    news:
+      columns:
+        - teaser_image
+        - title
+        - status
   taxonomies:
     project_categories:
       columns:

@@ -1,0 +1,93 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: date
+            field:
+              type: text
+              display: Datum
+              validate:
+                - required
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: main_image
+            field:
+              max_files: 1
+              container: assets
+              folder: aktuell
+              type: assets
+              display: Bild
+              instructions_position: below
+              validate:
+                - required
+          -
+            handle: lead
+            field:
+              type: textarea
+              display: Lead
+              validate:
+                - required
+          -
+            handle: page_elements
+            field:
+              type: replicator
+              display: 'Weitere Inhalte'
+              sets:
+                image_elements:
+                  display: Bilder
+                  icon: media-image-picture-gallery
+                  sets:
+                    image_container_100:
+                      display: 'Bild (ganze Breite)'
+                      icon: media-image-picture-orientation
+                      fields:
+                        -
+                          import: image_container_100
+                    image_container_50_50:
+                      display: 'Bilder quer (2 Bilder)'
+                      icon: media-image-picture-gallery
+                      fields:
+                        -
+                          import: image_container_50_50
+                    image_container_33_66:
+                      display: 'Bild hoch/Bild quer'
+                      icon: media-image-picture-gallery
+                      fields:
+                        -
+                          import: image_container_33_66
+                    image_container_66_33:
+                      display: 'Bild quer/Bild hoch'
+                      icon: media-image-picture-gallery
+                      fields:
+                        -
+                          import: image_container_66_33
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - news
+              max_items: 1
+              listable: false
+              localizable: true
+title: Aktuell

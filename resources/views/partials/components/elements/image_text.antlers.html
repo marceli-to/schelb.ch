@@ -51,6 +51,10 @@
             {{ /partial:layout/span }}
             {{ partial:layout/span }}
               {{ text_right }}
+                {{ if type == 'text' }}
+                  {{ text }}
+                {{ /if }}
+            {{ /text_right }}
             {{ /partial:layout/span }}
           {{ /partial:layout/grid }}
         {{ /if }}

@@ -73,6 +73,12 @@ tabs:
                       fields:
                         -
                           import: network
+                    teaser_news:
+                      display: 'Teaser Aktuell'
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: teaser_news
   seo:
     display: SEO
     sections:
