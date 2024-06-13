@@ -76,8 +76,6 @@ open_graph_description: |-
   Öffentliche Spielanlage im schönen alten Stadtpark belebt den Parks durch Zusammenführen von Generationen.
   Artikulierte Baumkronen aus krummwüchsigen Robinienstämmen, verbunden durch diverse Netz- und Seilaufstiege, Hängebrücken und hölzerne Treppenaufstiege. Baumhaus für die Kleinsten mit Rutsche und grossem Sand-/ Wasserbereich.
 open_graph_image: projekte/schelb.ch-generationenspielplatz-stadtpark-olten-0.jpg
-category:
-  - spielplatz
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
 updated_at: 1718268328
 ---
