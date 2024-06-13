@@ -28,7 +28,7 @@
             <li>
               <a 
                 href="{{ url }}"
-                class="filter-item {{ is_current || is_parent ? 'font-gt-light-italic' : '' }}"
+                class="filter-item {{ current_uri == url ? 'font-gt-light-italic' : '' }}"
                 title="{{ title }}">
                 {{ title }}
               </a>

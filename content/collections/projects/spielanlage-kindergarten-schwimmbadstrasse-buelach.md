@@ -19,7 +19,7 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: text-lead
+              class: null
             content:
               -
                 type: text
@@ -27,7 +27,7 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: text-lead
+              class: null
             content:
               -
                 type: text
@@ -35,7 +35,7 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: text-lead
+              class: null
             content:
               -
                 type: text
@@ -43,7 +43,7 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: text-lead
+              class: null
             content:
               -
                 type: text
@@ -52,37 +52,21 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: null
+              class: text-subinfo
             content:
               -
                 type: text
                 text: '2021 realisiert für Stadt Bülach'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'Konzept und Realisation:'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Steff Dobler, atelier schelb+partner ag'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'in Zusammenarbeit mit:'
+                text: 'Konzept und Realisation: Steff Dobler, atelier schelb+partner ag'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'planikum GmbH LA'
+                text: 'in Zusammenarbeit mit: planikum GmbH LA'
         type: text_container_50_50
         enabled: true
     type: image_text
@@ -94,5 +78,5 @@ description: |-
 open_graph_description: 'Eichenblöcke als Kaskadenkonstruktion mit Mäander und Rinnen, Transportseilbahn mit Eimer für Bergwerk-Spielwelt. „Grubenturm“ mit Seil- und Netzaufstiegen und farbigen Plexiglasfensterchen. Holzbeplankter Lagerplatz für Gemüseanbau, Eimerzugstation mit Rundkiesbecken. Marktplatz an die treppenartige Topografie angepasst, unter hölzernen Schirmdächern; Tische und Podeste für Marktauslagen.'
 open_graph_image: projekte/schelb.ch-buelach-kindergarten-0.jpg
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718268262
+updated_at: 1718282026
 ---

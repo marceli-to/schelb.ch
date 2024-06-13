@@ -1,0 +1,15 @@
+{{ partial:project/components/filter_list class="hidden md:block" }}
+
+{{ if title }}
+  {{ partial:components/headings/h1 title="{{ title }}" class="text-lead mb-15 md:mb-30 lg:mb-70" }}
+{{ /if }}
+
+<div class="space-y-20">
+  {{ page_elements }}
+
+    {{ if type == 'image_text' }}
+      {{ partial:project/components/image_text }}  
+    {{ /if }}
+
+  {{ /page_elements }}
+</div>

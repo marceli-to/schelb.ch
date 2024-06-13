@@ -19,7 +19,7 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: text-lead
+              class: null
             content:
               -
                 type: text
@@ -27,7 +27,7 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: text-lead
+              class: null
             content:
               -
                 type: text
@@ -41,32 +41,16 @@ page_elements:
               -
                 type: text
                 text: '2022 realisiert für Stadt Bellinzona'
-          -
-            type: paragraph
-            attrs:
-              class: text-subinfo
-            content:
-              -
-                type: text
-                text: 'Konzept und Realisation:'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Rando Moricca, Steff Dobler, atelier schelb+partner ag'
-          -
-            type: paragraph
-            attrs:
-              class: text-subinfo
-            content:
-              -
-                type: text
-                text: 'in Zusammenarbeit mit:'
+                text: 'Konzept und Realisation: Rando Moricca, Steff Dobler, atelier schelb+partner ag'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Pamela Berta, Vit Marek, Ronny Egger, Werkhof Bellinzona'
+                text: 'in Zusammenarbeit mit: Pamela Berta, Vit Marek, Ronny Egger, Werkhof Bellinzona'
         type: text_container_50_50
         enabled: true
     type: image_text
@@ -122,7 +106,7 @@ beschreibung: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718264470
+updated_at: 1718282078
 description: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022

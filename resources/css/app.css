@@ -42,6 +42,10 @@ h2,
   @apply text-xxs md:text-xs lg:text-sm leading-[1.25];
 }
 
+p.text-subinfo {
+  @apply mb-10 md:mb-15;
+}
+
 /* Filters */
 .filter-button {
   @apply flex justify-between items-center py-1 w-full border-t border-t-black;

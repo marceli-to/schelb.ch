@@ -39,7 +39,7 @@ return [
           'ident' => 'S',
           'icon' => null,
           'class' => 'text-subinfo',
-          'cp_css' => 'font-size: 1rem; font-weight: 500',
+          'cp_css' => 'font-size: .84rem; font-weight: 400',
           'cp_badge' => false,
         ],
 
