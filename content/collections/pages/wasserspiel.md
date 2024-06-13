@@ -173,7 +173,7 @@ page_elements:
     image_containers:
       -
         id: lxbl0e1z
-        image_landscape_left: schelb.ch-wasserspiel-beton-brunnen--bruettener.jpg
+        image_landscape_left: schelb.ch-wasserspiel-beton-brunnen-bruettener.jpg
         image_landscape_right: schelb.ch-wasserspiel.jpg
         type: image_container_50_50
         enabled: true

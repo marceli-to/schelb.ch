@@ -5,11 +5,6 @@ tabs:
       -
         fields:
           -
-            handle: lighthouse
-            field:
-              type: toggle
-              display: Leuchtturmprojekt
-          -
             handle: title
             field:
               type: text
@@ -18,10 +13,18 @@ tabs:
               validate:
                 - required
           -
+            handle: list_title
+            field:
+              type: text
+              display: Listentitel
+              instructions: 'Nur für Leuchtturmprojekte, wird benötigt für Projektliste.'
+              instructions_position: below
+          -
             handle: page_elements
             field:
               type: replicator
-              display: Inhalte
+              display: Inhalt
+              collapse: true
               sets:
                 main_elements:
                   display: Hauptelemente
@@ -65,6 +68,19 @@ tabs:
       -
         fields:
           -
+            handle: lighthouse
+            field:
+              type: toggle
+              display: Leuchtturmprojekt
+          -
+            handle: category
+            field:
+              type: terms
+              taxonomies:
+                - category
+              display: Kategorie
+              mode: select
+          -
             handle: slug
             field:
               type: slug
@@ -79,12 +95,4 @@ tabs:
               max_items: 1
               listable: false
               localizable: true
-          -
-            handle: category
-            field:
-              type: terms
-              taxonomies:
-                - category
-              display: Kategorie
-              mode: select
 title: Projekte

@@ -19,7 +19,7 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: text-lead
+              class: null
             content:
               -
                 type: text
@@ -33,37 +33,21 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: null
+              class: text-subinfo
             content:
               -
                 type: text
                 text: '2020 realisiert für Heinisch LA BSLA'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'Konzept und Realisation:'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Rando Moricca, atelier schelb+partner ag'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                text: 'in Zusammenarbeit mit:'
+                text: 'Konzept und Realisation: Rando Moricca, atelier schelb+partner ag'
               -
                 type: hardBreak
               -
                 type: text
-                text: 'Zimmerei Oberhänsli'
+                text: 'in Zusammenarbeit mit: Zimmerei Oberhänsli'
         type: text_container_50_50
         enabled: true
     type: image_text
@@ -77,5 +61,6 @@ open_graph_description: |-
   Artikulierte Baumkronen aus krummwüchsigen Robinienstämmen, verbunden durch diverse Netz- und Seilaufstiege, Hängebrücken und hölzerne Treppenaufstiege. Baumhaus für die Kleinsten mit Rutsche und grossem Sand-/ Wasserbereich.
 open_graph_image: projekte/schelb.ch-generationenspielplatz-stadtpark-olten-0.jpg
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718268328
+updated_at: 1718283634
+list_title: 'Generationenspielplatz, Stadtpark Olten'
 ---
