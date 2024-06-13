@@ -5,7 +5,7 @@ title: Wasserspiel
 debug: false
 parent: 8a3767a7-a282-45af-930f-5400df73a239
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718183568
+updated_at: 1718290731
 page_elements:
   -
     id: lxbkh24x
@@ -61,6 +61,22 @@ page_elements:
               -
                 type: text
                 text: 'Mäander, Wirbel, Widerwasser, Spiralen und Wasserbecken sind den vielfältigen Formen des fliessenden Wassers in der Natur abgeschaut, aus diesen Elementen entwerfen wir immer wieder andere Wasserspiele aus verschiedenen Materialien.'
+          -
+            type: paragraph
+            attrs:
+              class: null
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: /werkarchiv/kategorie/wasserspiel
+                      rel: null
+                      target: null
+                      title: null
+                text: 'Projekte Wasserspiel'
         type: text_container_50_50
         enabled: true
     teaser: false

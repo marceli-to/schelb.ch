@@ -33,7 +33,7 @@
           <li>
             <a 
               href="/werkarchiv/kategorie/{{ slug }}"
-              class="filter-item {{ is_current || is_parent ? 'font-gt-light-italic' : '' }}"
+              class="filter-item {{ (current_uri | contains(slug)) ? 'font-gt-light-italic' : '' }}"
               title="{{ title }}">
               {{ title }}
             </a>
