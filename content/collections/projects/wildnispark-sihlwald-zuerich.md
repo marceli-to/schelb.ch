@@ -45,7 +45,19 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Konzept und Realisation: Fredi Schelb, Steff Dobler, atelier schelb+partner ag'
+                text: 'Konzept und Realisation: Fredi Schelb, Steff Dobler, '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: .nobr
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -64,5 +76,5 @@ category:
   - wasserspiel
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718289810
+updated_at: 1718290383
 ---

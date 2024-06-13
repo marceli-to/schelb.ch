@@ -60,7 +60,15 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Konzept und Realisation: Fredi Schelb, Steff Dobler, atelier schelb+partner ag'
+                text: 'Konzept und Realisation: Fredi Schelb, Steff Dobler, '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -78,5 +86,5 @@ open_graph_description: '1. Preis Wettbewerb, Spielanlage Eulachpark, Winterthur
 open_graph_image: projekte/schelb.ch-eulachpark-winterthur-spielplatz-0.jpg
 lighthouse: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718288678
+updated_at: 1718290488
 ---

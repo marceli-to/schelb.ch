@@ -37,7 +37,15 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Konzept und Realisation: Steff Dobler, atelier schelb+partner ag'
+                text: 'Konzept und Realisation: Steff Dobler, '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -55,5 +63,5 @@ open_graph_description: 'Grosse geschwungene Röhrenrutsche aus Edelstahl mit ve
 open_graph_image: projekte/schelb.ch-bellinzona-villa-dei-cedri-roehrenrutsche-0.jpg
 lighthouse: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718284260
+updated_at: 1718290461
 ---

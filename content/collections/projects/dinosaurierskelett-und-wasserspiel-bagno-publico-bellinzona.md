@@ -45,7 +45,15 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Konzept und Realisation: Rando Moricca, Steff Dobler, atelier schelb+partner ag'
+                text: 'Konzept und Realisation: Rando Moricca, Steff Dobler, '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -106,7 +114,7 @@ beschreibung: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718283202
+updated_at: 1718290415
 description: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022

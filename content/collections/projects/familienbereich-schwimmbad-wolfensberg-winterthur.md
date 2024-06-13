@@ -53,7 +53,15 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Konzept und Realisation: Fredi Schelb, atelier schelb+partner ag'
+                text: 'Konzept und Realisation: Fredi Schelb, '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -71,5 +79,5 @@ open_graph_description: 'Kinderbadebereich „Wolfi-Lagune“ mit gepflästertem
 open_graph_image: projekte/schelb.ch-schwimmbad-wolfensberg-winterthur-spielplatz-0.jpg
 lighthouse: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718287933
+updated_at: 1718290469
 ---

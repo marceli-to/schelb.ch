@@ -61,7 +61,15 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Konzept und Realisation: Steff Dobler, atelier schelb+partner ag'
+                text: 'Konzept und Realisation: Steff Dobler, '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -78,6 +86,6 @@ description: |-
 open_graph_description: 'Eichenblöcke als Kaskadenkonstruktion mit Mäander und Rinnen, Transportseilbahn mit Eimer für Bergwerk-Spielwelt. „Grubenturm“ mit Seil- und Netzaufstiegen und farbigen Plexiglasfensterchen. Holzbeplankter Lagerplatz für Gemüseanbau, Eimerzugstation mit Rundkiesbecken. Marktplatz an die treppenartige Topografie angepasst, unter hölzernen Schirmdächern; Tische und Podeste für Marktauslagen.'
 open_graph_image: projekte/schelb.ch-buelach-kindergarten-0.jpg
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718283230
+updated_at: 1718290445
 list_title: 'Kindergarten Schwimmbadstrasse, Bülach'
 ---

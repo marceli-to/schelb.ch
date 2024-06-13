@@ -9,6 +9,7 @@ fields:
         - removeformat
         - lead
         - subinfo
+        - nobr
       remove_empty_nodes: true
       type: bard
       display: 'Text links'
@@ -24,6 +25,7 @@ fields:
         - anchor
         - lead
         - subinfo
+        - nobr
       remove_empty_nodes: true
       type: bard
       display: 'Text rechts'

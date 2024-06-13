@@ -43,6 +43,16 @@ return [
           'cp_badge' => false,
         ],
 
+        'nobr' => [
+          'type' => 'span',
+          'name' => 'No Break',
+          'ident' => 'B',
+          'icon' => null,
+          'class' => 'nobr',
+          'cp_css' => 'white-space: nowrap',
+          'cp_badge' => false,
+        ],
+
         // 'brand' => [
         //     'type' => 'span',
         //     'name' => 'Brand Text',

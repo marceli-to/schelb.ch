@@ -40,7 +40,15 @@ page_elements:
             content:
               -
                 type: text
-                text: 'Konzept, Realisation, copyright: atelier schelb+partner ag'
+                text: 'Konzept, Realisation, copyright: '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -90,5 +98,5 @@ open_graph_description: |-
 open_graph_image: projekte/schelb.ch-sitzmobel-und-tischkombinationen-0.jpg
 lighthouse: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718288344
+updated_at: 1718290478
 ---

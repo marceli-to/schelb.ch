@@ -37,7 +37,15 @@ page_elements:
                 type: hardBreak
               -
                 type: text
-                text: 'Konzept und Realisation: Steff Dobler, atelier schelb+partner ag'
+                text: 'Konzept und Realisation: Steff Dobler, '
+              -
+                type: text
+                marks:
+                  -
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
               -
                 type: hardBreak
               -
@@ -53,5 +61,5 @@ open_graph_description: "Die Kletterstruktur aus Robinienholz bildet das Gerüst
 open_graph_image: projekte/schelb.ch-effretikon-rosswinkel-0.jpg
 lighthouse: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718284362
+updated_at: 1718290453
 ---

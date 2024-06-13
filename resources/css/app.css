@@ -46,6 +46,10 @@ p.text-subinfo {
   @apply mb-10 md:mb-15;
 }
 
+em, i {
+  @apply font-gt-light-italic;
+}
+
 /* Filters */
 .filter-button {
   @apply flex justify-between items-center py-1 w-full border-t border-t-black;
@@ -62,3 +66,8 @@ p.text-subinfo {
 .lg\:pos-4 { @apply lg:order-4; }
 .lg\:pos-5 { @apply lg:order-5; }
 .lg\:pos-6 { @apply lg:order-6; }
+
+/* Helpers */
+.nobr {
+  @apply whitespace-nowrap;
+}
