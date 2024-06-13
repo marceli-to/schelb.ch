@@ -66,3 +66,6 @@ preferences:
         - email
         - location
   theme: light
+  assets:
+    assets:
+      per_page: 100
