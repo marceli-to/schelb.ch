@@ -1,0 +1,90 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: lighthouse
+            field:
+              type: toggle
+              display: Leuchtturmprojekt
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              display: Titel
+              validate:
+                - required
+          -
+            handle: page_elements
+            field:
+              type: replicator
+              display: Inhalte
+              sets:
+                main_elements:
+                  display: Hauptelemente
+                  icon: addon-boxes-stack
+                  sets:
+                    image_text:
+                      display: Bild/Text
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: image_text_project
+  archive:
+    display: Werkarchiv
+    sections:
+      -
+        fields:
+          -
+            handle: image
+            field:
+              max_files: 1
+              container: assets
+              folder: projekte
+              type: assets
+              display: Bild
+          -
+            handle: description
+            field:
+              type: textarea
+              display: Beschreibung
+  seo:
+    display: SEO
+    sections:
+      -
+        display: SEO
+        fields:
+          -
+            import: seo
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - projects
+              max_items: 1
+              listable: false
+              localizable: true
+          -
+            handle: category
+            field:
+              type: terms
+              taxonomies:
+                - category
+              display: Kategorie
+              mode: select
+title: Projekte

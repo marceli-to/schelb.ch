@@ -4,7 +4,10 @@
       href="{{ link:url }}" 
       title="{{ title }}">
   {{ /if }}
-    {{ partial:components/headings/h1 title="{{ title }}" class="mb-15 md:mb-30 lg:mb-50" }}
+  
+    {{ if title }}
+      {{ partial:components/headings/h1 title="{{ title }}" class="mb-15 md:mb-30 lg:mb-50" }}
+    {{ /if }}
 
     <div class="space-y-20">
       {{ image_containers }}

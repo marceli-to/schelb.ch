@@ -47,6 +47,11 @@ preferences:
         - teaser_image
         - title
         - status
+    projects:
+      columns:
+        - title
+        - lighthouse
+        - category
   taxonomies:
     project_categories:
       columns:

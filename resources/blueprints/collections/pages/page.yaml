@@ -79,6 +79,130 @@ tabs:
                       fields:
                         -
                           import: teaser_news
+                projects:
+                  display: Projekte
+                  icon: dashboard-layout-3
+                  sets:
+                    project_teaser_66_33:
+                      display: 'Teaser – quer/hoch'
+                      icon: dashboard-layout-3
+                      fields:
+                        -
+                          handle: project_landscape
+                          field:
+                            max_items: 1
+                            collections:
+                              - projects
+                            type: entries
+                            display: Projekt
+                            width: 66
+                        -
+                          handle: project_portrait
+                          field:
+                            max_items: 1
+                            collections:
+                              - projects
+                            type: entries
+                            display: Projekt
+                            width: 33
+                        -
+                          handle: image_landscape
+                          field:
+                            max_files: 1
+                            container: assets
+                            folder: projekte
+                            type: assets
+                            display: Bild
+                            width: 66
+                        -
+                          handle: image_portrait
+                          field:
+                            max_files: 1
+                            container: assets
+                            folder: projekte
+                            type: assets
+                            display: Bild
+                            width: 33
+                    project_teaser_33_66:
+                      display: 'Teaser – hoch/quer'
+                      icon: dashboard-layout-2
+                      fields:
+                        -
+                          handle: project_portrait
+                          field:
+                            max_items: 1
+                            collections:
+                              - projects
+                            type: entries
+                            display: Projekt
+                            width: 33
+                        -
+                          handle: project_landscape
+                          field:
+                            max_items: 1
+                            collections:
+                              - projects
+                            type: entries
+                            display: Projekt
+                            width: 66
+                        -
+                          handle: image_portrait
+                          field:
+                            max_files: 1
+                            container: assets
+                            folder: projekte
+                            type: assets
+                            display: Bild
+                            width: 33
+                        -
+                          handle: image_landscape
+                          field:
+                            max_files: 1
+                            container: assets
+                            folder: projekte
+                            type: assets
+                            display: Bild
+                            width: 66
+                    project_teaser_50_50:
+                      display: "Teaser –\_2 quer"
+                      icon: dashboard-layout
+                      fields:
+                        -
+                          handle: project_left
+                          field:
+                            max_items: 1
+                            collections:
+                              - projects
+                            type: entries
+                            display: Projekt
+                            width: 50
+                        -
+                          handle: project_right
+                          field:
+                            max_items: 1
+                            collections:
+                              - projects
+                            type: entries
+                            display: Projekt
+                            width: 50
+                        -
+                          handle: image_left
+                          field:
+                            max_files: 1
+                            container: assets
+                            folder: projekte
+                            type: assets
+                            display: Bild
+                            width: 50
+                        -
+                          handle: image_right
+                          field:
+                            max_files: 1
+                            container: assets
+                            folder: projekte
+                            type: assets
+                            display: Bild
+                            width: 50
   seo:
     display: SEO
     sections:

@@ -1,21 +1,13 @@
-title: Bild/Text
+title: 'Bild/Text (Projekt)'
 fields:
-  -
-    handle: title
-    field:
-      type: text
-      display: Titel
-      validate:
-        - 'required_if:teaser,true'
   -
     handle: image_containers
     field:
       type: replicator
       display: Bild(er)
-      collapse: true
       sets:
         image_container:
-          display: Bilder
+          display: Bild(er)
           icon: media-image-picture-gallery
           sets:
             image_container_100:
@@ -47,7 +39,6 @@ fields:
     field:
       type: replicator
       display: Text(e)
-      collapse: true
       sets:
         text:
           display: Texte
@@ -65,17 +56,3 @@ fields:
               fields:
                 -
                   import: text_container_50_50
-  -
-    handle: teaser
-    field:
-      type: toggle
-      display: Teaser
-  -
-    handle: link
-    field:
-      collections:
-        - pages
-      type: link
-      display: Link
-      if:
-        teaser: 'equals true'

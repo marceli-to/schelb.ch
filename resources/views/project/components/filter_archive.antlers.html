@@ -21,20 +21,25 @@
       <div 
         x-cloak
         x-show="filterOpen">
-        {{ nav:topics_work }}
+        <li>
+          <a 
+            href="/werkarchiv"
+            class="filter-item {{ is_current || is_parent ? 'font-gt-light-italic' : '' }}"
+            title="Alle">
+            Alle
+          </a>
+        </li>
+        {{ taxonomy:category }}
           <li>
             <a 
-              href="{{ url }}"
+              href="/werkarchiv/kategorie/{{ slug }}"
               class="filter-item {{ is_current || is_parent ? 'font-gt-light-italic' : '' }}"
               title="{{ title }}">
               {{ title }}
             </a>
           </li>
-        {{ /nav:topics_work }}
+        {{ /taxonomy:category }}
       </div>
     {{ /partial:components/filter/items }}
   {{ /partial:components/filter/wrapper }}
 </div>
-{{ page_elements }}
-  {{ partial:elements }}
-{{ /page_elements }}

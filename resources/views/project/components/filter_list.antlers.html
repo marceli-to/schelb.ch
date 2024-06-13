@@ -1,4 +1,6 @@
-<div x-data="{ filterOpen: false }">
+<div 
+  x-data="{ filterOpen: false }" 
+  class="{{ class }}">
   {{ partial:components/filter/wrapper }}
     {{ partial:components/filter/button }}
       <a 
@@ -7,7 +9,7 @@
         x-on:click="filterOpen = ! filterOpen" 
         :class="{ 'font-gt-light-italic mb-0': filterOpen === true, 'mb-20 md:mb-35': filterOpen === false }"
         class="filter-button">
-        <span>Themen</span>
+        <span>Liste</span>
         <span x-show="!filterOpen">
           {{ partial:icons/plus class="w-26 h-auto" }}
         </span>
@@ -21,20 +23,19 @@
       <div 
         x-cloak
         x-show="filterOpen">
-        {{ nav:topics_work }}
-          <li>
-            <a 
-              href="{{ url }}"
-              class="filter-item {{ is_current || is_parent ? 'font-gt-light-italic' : '' }}"
-              title="{{ title }}">
-              {{ title }}
-            </a>
-          </li>
-        {{ /nav:topics_work }}
+        {{ collection from="projects" as="projects" sort="order" lighthouse:is="true" }}
+          {{ projects }}
+            <li>
+              <a 
+                href="{{ url }}"
+                class="filter-item {{ is_current || is_parent ? 'font-gt-light-italic' : '' }}"
+                title="{{ title }}">
+                {{ title }}
+              </a>
+            </li>
+          {{ /projects }}
+        {{ /collection }}
       </div>
     {{ /partial:components/filter/items }}
   {{ /partial:components/filter/wrapper }}
 </div>
-{{ page_elements }}
-  {{ partial:elements }}
-{{ /page_elements }}
