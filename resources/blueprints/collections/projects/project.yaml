@@ -31,7 +31,7 @@ tabs:
                   icon: addon-boxes-stack
                   sets:
                     image_text:
-                      display: Bild/Text
+                      display: Medien/Text
                       icon: text-formatting-image-top
                       fields:
                         -
@@ -68,10 +68,15 @@ tabs:
       -
         fields:
           -
-            handle: lighthouse
+            handle: is_lighthouse
             field:
               type: toggle
-              display: Leuchtturmprojekt
+              display: 'Leuchtturmprojekt?'
+          -
+            handle: has_detail
+            field:
+              type: toggle
+              display: 'Detailseite?'
           -
             handle: category
             field:

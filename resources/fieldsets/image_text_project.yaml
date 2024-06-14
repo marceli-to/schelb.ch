@@ -1,10 +1,10 @@
-title: 'Bild/Text (Projekt)'
+title: 'Medien/Text (Projekt)'
 fields:
   -
     handle: image_containers
     field:
       type: replicator
-      display: Bild(er)
+      display: Bild/Video
       sets:
         image_container:
           display: Bild(er)
@@ -34,6 +34,16 @@ fields:
               fields:
                 -
                   import: image_container_66_33
+        video_container:
+          display: Video
+          icon: media-webcam-video
+          sets:
+            video:
+              display: Video
+              icon: media-webcam-video
+              fields:
+                -
+                  import: video
   -
     handle: text_container
     field:

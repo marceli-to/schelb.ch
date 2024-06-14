@@ -71,7 +71,8 @@ image: projekte/schelb.ch-wildnispark-sihlwald-spielplatz-0.jpg
 description: 'Wildnispark Sihlwald, Zürich'
 open_graph_description: 'Spielwildnis in Robinienholz, mit Kokon, Spinnennetz, Hängematten, ausgehöhltem Baum, etc. Sand-/ Wasserspiel mit Robinienstämmen und Nautilusbrunnen (Betonguss in Sandnegativ).'
 open_graph_image: projekte/schelb.ch-wildnispark-sihlwald-spielplatz-0.jpg
-lighthouse: true
+is_lighthouse: true
+has_detail: true
 category:
   - wasserspiel
   - seiltechnik

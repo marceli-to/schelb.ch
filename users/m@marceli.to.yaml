@@ -50,7 +50,7 @@ preferences:
     projects:
       columns:
         - title
-        - lighthouse
+        - is_lighthouse
         - category
   taxonomies:
     project_categories:

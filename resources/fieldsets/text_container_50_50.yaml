@@ -4,7 +4,9 @@ fields:
     handle: text_left
     field:
       buttons:
+        - h1
         - h2
+        - h3
         - italic
         - removeformat
         - lead
@@ -19,7 +21,9 @@ fields:
     handle: text_right
     field:
       buttons:
+        - h1
         - h2
+        - h3
         - italic
         - removeformat
         - anchor

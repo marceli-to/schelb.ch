@@ -96,7 +96,8 @@ open_graph_description: |-
   Wir entwickeln bekanntlich immer wieder neue und individuelle Spielgeräte, keine Katalogprodukte. 
   Und doch gibt es einige wenige Sitzmöbel und Tischkombinationen, die wir immer wieder auf Nachfrage produziert haben und die sich an verschiedenen Orten gut bewährt haben. Gerne machen wir ein Angebot für diese Objekte.
 open_graph_image: projekte/schelb.ch-sitzmobel-und-tischkombinationen-0.jpg
-lighthouse: true
+is_lighthouse: true
+has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
 updated_at: 1718290478
 ---

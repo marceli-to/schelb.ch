@@ -63,13 +63,24 @@ page_elements:
         enabled: true
     type: image_text
     enabled: true
+  -
+    id: lxebllme
+    image_containers:
+      -
+        id: lxeblnex
+        video: projekte/schelb.ch-winterthur-rychenbergpark.mp4
+        type: video
+        enabled: true
+    type: image_text
+    enabled: true
 image: projekte/schelb.ch-winterthur-rychenbergpark-0.jpg
 description: |-
   Spielanlage zu Klang und Musik
   Rychenbergpark, Winterthur
 open_graph_description: 'Ein vielfältiges Spielangebot lässt die Fantasie von Gross und Klein leise anklingen. Bass- und Violinschlüssel mit Kletterstruktur interpretiert, struppiges Singvogelnest in luftiger Höhe, Seilhängebrücke, Doppelrohrutsche, Hängelianenzöpfe und weitere Aufstiegs- und Spielmöglichkeiten, wie Noten aufgespannt. Die Schaukel gibt als Metronom den Takt an. Spatz-Schwatz-Platz lädt ein zum Balancieren, Kraxeln, Plaudern und Pausieren.'
 open_graph_image: projekte/schelb.ch-winterthur-rychenbergpark-0.jpg
-lighthouse: true
+is_lighthouse: true
+has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718289204
+updated_at: 1718348555
 ---

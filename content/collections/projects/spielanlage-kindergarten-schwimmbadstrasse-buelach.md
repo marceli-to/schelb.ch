@@ -1,7 +1,7 @@
 ---
 id: 8ba0eb45-691f-4772-b55c-ed77c97942b4
 blueprint: project
-lighthouse: true
+is_lighthouse: true
 title: 'Spielanlage Kindergarten Schwimmbadstrasse, Bülach'
 page_elements:
   -
@@ -81,11 +81,12 @@ page_elements:
     enabled: true
 image: projekte/schelb.ch-buelach-kindergarten-0.jpg
 description: |-
-  Spielanlage
-  Kindergarten Schwimmbadstrasse, Bülach
+  Spielanlage Kindergarten
+  Schwimmbadstrasse, Bülach
 open_graph_description: 'Eichenblöcke als Kaskadenkonstruktion mit Mäander und Rinnen, Transportseilbahn mit Eimer für Bergwerk-Spielwelt. „Grubenturm“ mit Seil- und Netzaufstiegen und farbigen Plexiglasfensterchen. Holzbeplankter Lagerplatz für Gemüseanbau, Eimerzugstation mit Rundkiesbecken. Marktplatz an die treppenartige Topografie angepasst, unter hölzernen Schirmdächern; Tische und Podeste für Marktauslagen.'
 open_graph_image: projekte/schelb.ch-buelach-kindergarten-0.jpg
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718290445
+updated_at: 1718345380
 list_title: 'Kindergarten Schwimmbadstrasse, Bülach'
+has_detail: true
 ---

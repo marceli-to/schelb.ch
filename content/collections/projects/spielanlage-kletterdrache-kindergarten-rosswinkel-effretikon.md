@@ -59,7 +59,8 @@ image: projekte/schelb.ch-effretikon-rosswinkel-0.jpg
 description: 'Spielanlage Kletterdrache Kindergarten Rosswinkel, Effretikon'
 open_graph_description: "Die Kletterstruktur aus Robinienholz bildet das Gerüst des Kletterdrachens. Seilarbeiten wie zum Beispiel Lümmel- und Aufstiegsnetze sowie ein grosses Spinnennetz mit diversen Aufgängen fachen den Körper aus. Die gemütliche Sitzrunde mit Tischchen unter dem Kiefer-Podest laden zum Picknicken ein. Durch's Maul, lässt es sich die Zunge runterrutschen."
 open_graph_image: projekte/schelb.ch-effretikon-rosswinkel-0.jpg
-lighthouse: true
+is_lighthouse: true
+has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
 updated_at: 1718290453
 ---

@@ -81,10 +81,11 @@ page_elements:
 image: projekte/schelb.ch-eulachpark-winterthur-spielplatz-0.jpg
 description: |-
   Spielanlage Eulachpark, Winterthur
-  (1. Preis Wettbewerb)
+  1. Preis Wettbewerb
 open_graph_description: '1. Preis Wettbewerb, Spielanlage Eulachpark, Winterthur, Spielplatz mit krummwüchsigem Robinienholz, Schaukeln, Spiel-Iglus, Rohrtelefon. Sandspiel mit Wasserlauf (Tonngativformen, epoxiert und in Beton gegossen).'
 open_graph_image: projekte/schelb.ch-eulachpark-winterthur-spielplatz-0.jpg
-lighthouse: true
+is_lighthouse: true
+has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718290488
+updated_at: 1718345334
 ---

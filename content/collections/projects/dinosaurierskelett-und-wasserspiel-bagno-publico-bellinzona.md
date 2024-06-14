@@ -1,7 +1,8 @@
 ---
 id: e1a093bc-70e6-4529-a011-30d79e1a64ce
 blueprint: project
-lighthouse: true
+is_lighthouse: true
+has_detail: true
 title: 'Dinosaurierskelett und Wasserspiel Bagno Publico, Bellinzona'
 page_elements:
   -
@@ -114,7 +115,7 @@ beschreibung: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718290415
+updated_at: 1718345252
 description: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022
