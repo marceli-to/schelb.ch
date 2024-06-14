@@ -47,7 +47,7 @@ p.text-subinfo {
 }
 
 em, i {
-  @apply font-gt-light-italic;
+  @apply font-gt-light-italic italic;
 }
 
 /* Filters */
@@ -56,7 +56,7 @@ em, i {
 }
 
 .filter-item {
-  @apply flex justify-between py-1 w-full border-t border-t-black hover:font-gt-light-italic
+  @apply flex justify-between py-1 w-full border-t border-t-black hover:font-gt-light-italic hover:italic
 }
 
 /* Order */
