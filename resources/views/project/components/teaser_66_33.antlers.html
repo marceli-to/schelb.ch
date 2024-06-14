@@ -1,10 +1,10 @@
 <a
   href="/projekte/{{ project_landscape:slug }}"
   title="{{ project_landscape:title }}"
-  class="block group md:col-span-4">
+  class="block group md:col-span-4 md:relative">
   {{ partial:components/media/image 
     :image="image_landscape" 
-    wrapperClass="aspect-[16/10] relative"
+    wrapperClass="aspect-[16/10] relative md:static"
     class="w-full h-full object-cover absolute"
     :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
     preset="focal-16-10" }}
@@ -15,10 +15,10 @@
 <a 
   href="/projekte/{{ project_portrait:slug }}"
   title="{{ project_portrait:title }}"
-  class="block group md:col-span-2 max-w-[80%] md:max-w-none">
+  class="block group md:col-span-2 md:relative max-w-[80%] md:max-w-none">
   {{ partial:components/media/image 
     :image="image_portrait" 
-    wrapperClass="aspect-[4/5] relative"
+    wrapperClass="aspect-[4/5] relative md:static"
     class="w-full h-full object-cover absolute"
     :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
     preset="focal-4-5" }}
