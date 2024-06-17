@@ -9,6 +9,7 @@ fields:
         - h3
         - italic
         - removeformat
+        - anchor
         - lead
         - subinfo
         - nobr
