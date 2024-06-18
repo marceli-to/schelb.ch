@@ -79,8 +79,9 @@ image: projekte/schelb.ch-schwimmbad-wuelflingen-winterthur-wasserspiel-0.jpg
 description: 'Schwimmbad Wülflingen, Winterthur'
 open_graph_description: 'Neuer Kinderbadebereich mit Oktopus, Kopf als rot eingefärbter Betonguss mit eingelegten Spiegeln aus Ton-Positiv.'
 open_graph_image: projekte/schelb.ch-schwimmbad-wuelflingen-winterthur-wasserspiel-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

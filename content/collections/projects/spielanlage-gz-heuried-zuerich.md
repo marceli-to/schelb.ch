@@ -66,8 +66,9 @@ image: projekte/schelb.ch-gz-heuried-spielplatz-0.jpg
 description: 'Spielanlage GZ Heuried, Zürich'
 open_graph_description: 'Spielanlage beim Gemeinschaftszentrum mit Fünfecktürmen in Robinie, Marsupilami- und Vierfreundinnenschaukel, Hängematte, Holzträmmelweg, Wasser- und Sandspiel. Partizipationsprojekt Ideenwerkstatt "Megaphon": vorangehende Modellbaunachmittage für Kinder.'
 open_graph_image: projekte/schelb.ch-gz-heuried-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

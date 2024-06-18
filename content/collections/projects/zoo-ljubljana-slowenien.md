@@ -58,7 +58,7 @@ image: projekte/schelb.ch-zoo-ljubljana-spielplatz-0.jpg
 description: 'Zoo Ljubljana, Slowenien'
 open_graph_description: 'Spielanlage in Robinie mit Kletterstrukturen, Netzen, Kletterdrachen mit Sitz-Eiern, geschnitzten Grottenolmen, Wasserspielanlage "Schlangenkönigin" mit geschnitztem Schlangenkopf'
 open_graph_image: projekte/schelb.ch-zoo-ljubljana-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
 category:
   - wasserspiel

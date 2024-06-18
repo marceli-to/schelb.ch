@@ -1,7 +1,6 @@
 ---
 id: 036003da-cc18-483a-a82e-aa8f7596e058
 blueprint: project
-is_lighthouse: true
 has_detail: true
 title: 'Generationenspielplatz Stadtpark Olten'
 page_elements:
@@ -66,8 +65,7 @@ page_elements:
     image_containers:
       -
         id: lxebl7jf
-        video:
-          - projekte/schelb.ch-generationenspielplatz-stadtpark-olten.mp4
+        video: projekte/schelb.ch-generationenspielplatz-stadtpark-olten.mp4
         type: video
         enabled: true
     type: image_text
@@ -81,6 +79,7 @@ open_graph_description: |-
   Artikulierte Baumkronen aus krummwüchsigen Robinienstämmen, verbunden durch diverse Netz- und Seilaufstiege, Hängebrücken und hölzerne Treppenaufstiege. Baumhaus für die Kleinsten mit Rutsche und grossem Sand-/ Wasserbereich.
 open_graph_image: projekte/schelb.ch-generationenspielplatz-stadtpark-olten-0.jpg
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718347981
+updated_at: 1718723397
 list_title: 'Generationenspielplatz, Stadtpark Olten'
+type: projekte
 ---

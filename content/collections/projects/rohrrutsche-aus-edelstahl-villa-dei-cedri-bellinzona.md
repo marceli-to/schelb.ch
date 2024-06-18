@@ -61,8 +61,9 @@ description: |-
   Villa dei Cedri, Bellinzona
 open_graph_description: 'Grosse geschwungene Röhrenrutsche aus Edelstahl mit verschiedenen Segmenten aus Rohr und Gitter, kombiniert mit Lümmelnetzen und farbigen Plexiglasscheibchen. Nebenan eine Robinien-Doppelwippe mit zwei Seilsitzen.'
 open_graph_image: projekte/schelb.ch-bellinzona-villa-dei-cedri-roehrenrutsche-0.jpg
-is_lighthouse: true
+
 has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718345576
+updated_at: 1718723483
+type: projekte
 ---

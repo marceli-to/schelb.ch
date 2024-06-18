@@ -58,8 +58,9 @@ image: projekte/schelb.ch-schulhaus-kuegeliloo-spielplatz-0.jpg
 description: 'Spielanlage Schulhaus Kügeliloo Zürich'
 open_graph_description: 'Grosse Kletterstruktur realisiert in 2 Etappen, mit Spinnnetz, Hängematte, Kletternetzen, etc.'
 open_graph_image: projekte/schelb.ch-schulhaus-kuegeliloo-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
 updated_at: 1718652891
 ---

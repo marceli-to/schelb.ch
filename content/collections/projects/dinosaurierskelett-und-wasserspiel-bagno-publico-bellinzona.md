@@ -1,7 +1,6 @@
 ---
 id: e1a093bc-70e6-4529-a011-30d79e1a64ce
 blueprint: project
-is_lighthouse: true
 has_detail: true
 title: 'Dinosaurierskelett und Wasserspiel Bagno Publico, Bellinzona'
 page_elements:
@@ -115,11 +114,12 @@ beschreibung: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718345252
+updated_at: 1718723475
 description: |-
   Dinosaurierskelett und Wasserspiel
   Bagno Publico, Bellinzona, 2022
 open_graph_description: 'Im Bereich der öffentlichen Badeanstalt liegt ein, im Sand verbuddeltes, T-Rex Skelett. Es animiert die Kinder mit archäologischem Eifer, Fossilien freizulegen. Auch kleine Beute und sonstige Gegenstände sind in Dino`s Bauchgerippe zu finden. Natürlich alles aus Stein gemeisselt. Gleich nebenan ein frei geformtes betoniertes Wasserspiel für das ultimative Sand-Matsch-Buddelerlebnis.'
 open_graph_image: projekte/schelb.ch-bellinzona-dinosaurierskelett-wasserspiel-0.jpg
 list_title: 'Dinosaurierskelett und Wasserspiel, Bellinzona'
+type: projekte
 ---

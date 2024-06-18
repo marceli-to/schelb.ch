@@ -12,7 +12,7 @@
       <source media="(min-width: 768px)" srcset="{{ glide:image preset="{{ preset ? 'lg-{{ preset }}-webp' : 'lg-webp' }}" }}" type="image/webp">
       <source media="(min-width: 768px)" srcset="{{ glide:image preset="{{ preset ? 'lg-{{ preset }}' : 'lg' }}" }}" type="image/jpeg">
     {{ /if }}
-    <source srcset="{{ glide:image width="768" height="576" quality="90" fit="crop_focal" format="webp" }}" />
+    <source srcset="{{ glide:image preset="{{ preset ? 'md-{{ preset }}-webp' : 'md-webp' }}" }}" />
     <img 
       src="{{ glide:image preset="{{ preset ? 'md-{{ preset }}' : 'md' }}" }}" 
       alt="{{ alt ? alt : image:alt }}" 

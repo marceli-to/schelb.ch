@@ -58,8 +58,9 @@ image: projekte/schelb.ch-josefwiese-zuerich-spielplatz-0.jpg
 description: 'Spielanlage Josefwiese Zürich'
 open_graph_description: 'Wege über schiefe Ebenen, Schaukelelemente und Hängematten, Spielturm mit Kletterwand und Netzen'
 open_graph_image: projekte/schelb.ch-josefwiese-zuerich-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

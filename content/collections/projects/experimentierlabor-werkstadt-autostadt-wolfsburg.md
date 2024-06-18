@@ -76,10 +76,10 @@ image: projekte/schelb.ch-autostadt-wolfsburg-werkstadt-zahnraedersalat.jpg
 description: 'Experimentierlabor "Werkstadt", Autostadt Wolfsburg'
 open_graph_description: 'Eine Art Jugendlabor zur sinnlichen Erfahrung von Phänomenen rund um die Mobilität, mit 20 selbst entwickelten Exerimentierstationen, Vorführungen und Workshops.'
 open_graph_image: projekte/schelb.ch-autostadt-wolfsburg-werkstadt-zahnraedersalat.jpg
-is_lighthouse: false
 has_detail: true
 category:
   - besonderes
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718650790
+updated_at: 1718723564
+type: werkarchiv
 ---

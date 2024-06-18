@@ -58,8 +58,9 @@ image: projekte/schelb.ch-schulhaus-kartaus-zuerich-spielplatz-0.jpg
 description: 'Spielanlage Schulhaus Kartaus Zürich'
 open_graph_description: 'Spielanlage in Robinie mit Ebenen, Brücken und verschiedenen Kletternetzen, Findling mit Aufstieg'
 open_graph_image: projekte/schelb.ch-schulhaus-kartaus-zuerich-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

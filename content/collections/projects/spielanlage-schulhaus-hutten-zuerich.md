@@ -61,10 +61,11 @@ page_elements:
     enabled: true
 image: projekte/schelb.ch-schulhaus-hutten-spielplatz-0.jpg
 description: 'Spielanlage Schulhaus Hutten Zürich'
-is_lighthouse: false
+
 has_detail: true
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718650727
+updated_at: 1718723585
+type: werkarchiv
 ---

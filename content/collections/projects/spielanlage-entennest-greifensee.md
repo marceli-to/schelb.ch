@@ -63,8 +63,9 @@ image: projekte/schelb.ch-greifensee-spielplatz-entennest-0.jpg
 description: 'Spielanlage Entennest Greifensee'
 open_graph_description: 'Öffentliche Spielanlage beim Schulhaus Breiti in Robinienholz, mit Entennest, Biberburg, grossem Kletterangebot, geschnitztem Wasserspiel'
 open_graph_image: projekte/schelb.ch-greifensee-spielplatz-entennest-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

@@ -84,10 +84,11 @@ page_elements:
 image: projekte/schelb.ch-wipkingerpark-spielplatz-0.jpg
 description: 'Spielanlage GZ Wipkingen Zürich'
 open_graph_image: projekte/schelb.ch-wipkingerpark-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718650744
+updated_at: 1718723580
+type: werkarchiv
 ---

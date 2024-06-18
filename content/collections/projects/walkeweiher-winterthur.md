@@ -68,8 +68,9 @@ open_graph_description: |-
   Konzept und Gestaltung für den Erholungsraum Walkeweiher:
   Inseln und Wegführung, Brücken und Stege, Bachlauf, Sandsteinblöcke. Unterstand in Leichtbauweise, Sitzbänke, Brunnenanlage "Nautilus" mit Betonguss in Sandnegativ und geschnitztem Wasserlauf
 open_graph_image: projekte/schelb.ch-walkeweiher-winterthur-gestaltung-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - wasserspiel
   - besonderes

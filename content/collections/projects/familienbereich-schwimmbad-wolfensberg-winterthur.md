@@ -75,8 +75,8 @@ image: projekte/schelb.ch-schwimmbad-wolfensberg-winterthur-spielplatz-0.jpg
 description: 'Familienbereich Schwimmbad Wolfensberg, Winterthur'
 open_graph_description: 'Kinderbadebereich „Wolfi-Lagune“ mit gepflästertem Wirbelbecken, Stauwehren, Spiraltürmen (Harzzementabguss ab Tonpositiv) als Wasserspender. Archimedesschraube und Eichenkanal über Sandlandschaft. Spielturm mit Netzen auf dem Hügel.'
 open_graph_image: projekte/schelb.ch-schwimmbad-wolfensberg-winterthur-spielplatz-0.jpg
-is_lighthouse: true
 has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718345392
+updated_at: 1718723504
+type: projekte
 ---

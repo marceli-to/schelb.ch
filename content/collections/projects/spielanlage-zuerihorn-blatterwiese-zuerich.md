@@ -77,8 +77,9 @@ image: projekte/schelb.ch-zuerihorn-spielplatz-0.jpg
 description: 'Spielanlage Zürihorn (Blatterwiese) Zürich'
 open_graph_description: 'Spielelemente in grossem Stahlrahmen, Schaukeln, Rutschen, Netze, Hängematten, Zählrahmen, Sand- und Wasserspiel. Sitzmöbel 07 zum vielfältigen Besitzen und Beliegen.'
 open_graph_image: projekte/schelb.ch-zuerihorn-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
 updated_at: 1718651261
 ---

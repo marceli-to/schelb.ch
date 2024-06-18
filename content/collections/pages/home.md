@@ -4,7 +4,7 @@ blueprint: page
 title: Home
 debug: false
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718207288
+updated_at: 1718719298
 show_maps: false
 page_elements:
   -
@@ -12,17 +12,17 @@ page_elements:
     title: Projekte
     image_containers:
       -
+        id: lx92qt5b
+        image_landscape: schelb.ch-projekte-netze.jpg
+        type: image_container_66_33
+        enabled: true
+        image_portrait: schelb.ch-projekte-brunnen-1718718435.jpg
+      -
         id: lx92qhsh
-        image_portrait: schelb.ch-projekte-netze-holz.jpg
         image_landscape: schelb.ch-projekte-dino-zuschnitt.jpg
         type: image_container_33_66
         enabled: true
-      -
-        id: lx92qt5b
-        image_landscape: schelb.ch-projekte-netze.jpg
-        image_portrait: schelb.ch-projekte-brunnen.jpg
-        type: image_container_66_33
-        enabled: true
+        image_portrait: schelb.ch-projekte-netze-holz.jpg
     type: image_text
     enabled: true
     text_container:

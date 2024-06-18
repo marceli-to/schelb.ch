@@ -1,5 +1,5 @@
 <a 
-  href="/projekte/{{ project_portrait:slug }}"
+  href="/{{ project_left:type }}/{{ project_left:slug }}"
   title="{{ project_left:title }}"
   class="block group md:col-span-3 md:relative">
   {{ partial:components/media/image 
@@ -13,7 +13,7 @@
     </div>
 </a>
 <a
-  href="/projekte/{{ project_landscape:slug }}"
+  href="/{{ project_right:type }}/{{ project_right:slug }}"
   title="{{ project_right:title }}"
   class="block group md:col-span-3 md:relative">
   {{ partial:components/media/image 

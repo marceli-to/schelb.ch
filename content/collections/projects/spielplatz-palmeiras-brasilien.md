@@ -56,8 +56,9 @@ image: projekte/schelb.ch-pielplatz-palmeiras-brasilien-0.jpg
 description: 'Spielplatz Palmeiras, Brasilien'
 open_graph_description: 'Im Rahmen eines ehrenamtlichen Einsatzes für die Stiftung apoia entsteht der erste öffentliche Spielplatz des Städtchens Palmeiras.'
 open_graph_image: projekte/schelb.ch-pielplatz-palmeiras-brasilien-0.jpg
-is_lighthouse: true
+
 has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718289595
+updated_at: 1718723540
+type: projekte
 ---

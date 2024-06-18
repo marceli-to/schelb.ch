@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::statamic('/werkarchiv/{slug}', 'project.show', [
+//   'layout' => 'layout.default',
+//   'title' => 'Werkarchiv',
+// ]);
+
 Route::statamic('/werkarchiv/kategorie/{category?}', 'project.archive', [
   'layout' => 'layout.default',
   'title' => 'Werkarchiv',

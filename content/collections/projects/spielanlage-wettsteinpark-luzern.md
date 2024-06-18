@@ -58,8 +58,9 @@ image: projekte/schelb.ch-luzern-wettsteinpark-spielplatz-0.jpg
 description: 'Spielanlage Wettsteinpark Luzern'
 open_graph_description: 'Spielanlage in öffentlichem Park, mit Kletter- und Schaukelanlage. Grosses geschnitztes Wasserspiel über Spielsand aus vor Ort gewachsenem Sequoia- Baumstrunk'
 open_graph_image: projekte/schelb.ch-luzern-wettsteinpark-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

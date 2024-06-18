@@ -35,58 +35,29 @@ page_elements:
           -
             type: paragraph
             attrs:
-              class: null
+              class: text-subinfo
             content:
               -
                 type: text
-                marks:
-                  -
-                    type: italic
                 text: "Realisiert\_2015 für Kirchgemeinde Winterthur Mattenbach"
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
+              -
+                type: hardBreak
+              -
+                type: text
+                text: "Konzept und Realisation, Modell und 1:1 Schablonen: F. Schelb,\_"
               -
                 type: text
                 marks:
                   -
-                    type: italic
-                text: 'Konzept und Realisation, Modell und 1:1 Schablonen:'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
+                    type: btsSpan
+                    attrs:
+                      class: nobr
+                text: 'atelier schelb+partner ag'
+              -
+                type: hardBreak
               -
                 type: text
-                marks:
-                  -
-                    type: italic
-                text: "F. Schelb,\_atelier schelb+partner ag"
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: 'In Zusammenarbeit mit:'
-          -
-            type: paragraph
-            attrs:
-              class: null
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: italic
-                text: 'Renato Caduff, Natursteinzentrum Müller Hinwil'
+                text: 'In Zusammenarbeit mit: Renato Caduff, Natursteinzentrum Müller Hinwil'
         type: text_container_50_50
         enabled: true
     type: image_text
@@ -95,11 +66,12 @@ image: projekte/schelb.ch-brunnen-zwinglikirche-winterthur-mattenbach-0.jpg
 description: 'Jubiläumsbrunnen für die Zwinglikirche Winterthur-Mattenbach'
 open_graph_description: "Auftragsarbeit zum Jubiläum 75Jahre Zwinglikirche. Brunnenanlage in Bolliger Hartsandstein. Wasserläufe und Becken mit Mäandern, Wirbelstrasse, gegenläufiger Spirale.\_Freistehender Zulauf in Edelstahl"
 open_graph_image: projekte/schelb.ch-brunnen-zwinglikirche-winterthur-mattenbach-0.jpg
-is_lighthouse: false
+
 has_detail: true
+type: werkarchiv
 category:
   - wasserspiel
   - besonderes
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718654974
+updated_at: 1718724190
 ---

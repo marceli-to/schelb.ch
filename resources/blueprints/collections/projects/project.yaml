@@ -68,10 +68,14 @@ tabs:
       -
         fields:
           -
-            handle: is_lighthouse
+            handle: type
             field:
-              type: toggle
-              display: 'Leuchtturmprojekt?'
+              options:
+                projekte: Leuchtturmprojekte
+                werkarchiv: Werkarchiv
+              default: werkarchiv
+              type: select
+              display: Typ
           -
             handle: has_detail
             field:

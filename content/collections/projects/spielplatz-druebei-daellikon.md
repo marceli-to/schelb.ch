@@ -76,11 +76,12 @@ image: projekte/schelb.ch-daellikon-spielplatz-0.jpg
 description: 'Spielplatz "Drübei" Dällikon'
 open_graph_description: 'Dreibeine in Lärchenholz mit Netzen und Hängebrücken, Ausguck, Partnerschaukel und Seilbahn. Pavillon mit Pergola und Feuerstelle. Spielsand mit Kalksteinbrunnen und Schöpfkrokodil.'
 open_graph_image: projekte/schelb.ch-daellikon-spielplatz-0.jpg
-is_lighthouse: false
+
 has_detail: true
 category:
   - seiltechnik
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718650771
+updated_at: 1718723575
+type: werkarchiv
 ---

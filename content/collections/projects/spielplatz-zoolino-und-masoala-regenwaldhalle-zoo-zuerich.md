@@ -61,11 +61,12 @@ description: |-
   ZOO Zürich
 open_graph_description: 'Zoolino: Grosser Spiel- und Kletterbereich im mit geschnitzten Rieseninsekten, Spinnennetz mit hängender Spinne, Kokons, Ameisenbau und Schöpfsalamander. Masoalahalle: Dachkonstruktionen mit Palmblättern, Abschrankungen und Sitzkombinationen aus Robinie und Bambus. Baumstammbrücken und Seilzopf-Hängebrücke über Wasserflächen und durch Dickicht.'
 open_graph_image: projekte/schelb.ch-zoo-zuerich-spielplatz-0.jpg
-is_lighthouse: true
+
 has_detail: true
 category:
   - seiltechnik
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718289991
+updated_at: 1718723558
+type: projekte
 ---
