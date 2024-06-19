@@ -34,8 +34,6 @@ tabs:
             field:
               type: textarea
               display: Lead
-              validate:
-                - required
           -
             handle: page_elements
             field:
