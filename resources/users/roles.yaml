@@ -30,6 +30,8 @@ editor:
     - 'edit topics_work nav'
     - 'view category terms'
     - 'edit category terms'
+    - 'create category terms'
+    - 'delete category terms'
     - 'view assets assets'
     - 'upload assets assets'
     - 'edit assets assets'

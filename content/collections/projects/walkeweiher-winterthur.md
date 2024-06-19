@@ -70,7 +70,7 @@ open_graph_description: |-
 open_graph_image: projekte/schelb.ch-walkeweiher-winterthur-gestaltung-0.jpg
 
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - wasserspiel
   - besonderes

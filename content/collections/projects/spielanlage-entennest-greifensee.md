@@ -65,7 +65,7 @@ open_graph_description: 'Öffentliche Spielanlage beim Schulhaus Breiti in Robin
 open_graph_image: projekte/schelb.ch-greifensee-spielplatz-entennest-0.jpg
 
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

@@ -68,7 +68,7 @@ open_graph_description: "Auftragsarbeit zum Jubiläum 75Jahre Zwinglikirche. Bru
 open_graph_image: projekte/schelb.ch-brunnen-zwinglikirche-winterthur-mattenbach-0.jpg
 
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - wasserspiel
   - besonderes

@@ -60,7 +60,7 @@ open_graph_description: 'Seilspielanlage mit Holzdecks, Netztunnels und verschie
 open_graph_image: projekte/schelb.ch-berg-am-irchel-spielplatz-0.jpg
 
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

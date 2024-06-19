@@ -81,5 +81,5 @@ open_graph_image: projekte/schelb.ch-generationenspielplatz-stadtpark-olten-0.jp
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
 updated_at: 1718723397
 list_title: 'Generationenspielplatz, Stadtpark Olten'
-type: projekte
+project_type: projekte
 ---

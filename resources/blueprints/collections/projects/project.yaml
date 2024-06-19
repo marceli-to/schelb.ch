@@ -68,7 +68,7 @@ tabs:
       -
         fields:
           -
-            handle: type
+            handle: project_type
             field:
               options:
                 projekte: Leuchtturmprojekte

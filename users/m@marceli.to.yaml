@@ -57,6 +57,12 @@ preferences:
       columns:
         - title
         - slug
+    category:
+      columns:
+        - title
+        - slug
+        - order
+        - taxonomy
   forms:
     contact_form:
       columns:

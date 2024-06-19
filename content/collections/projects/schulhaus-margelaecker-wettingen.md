@@ -60,7 +60,7 @@ open_graph_description: 'Spiellandschaft in die naturnahe Umgebung eingefügt, m
 open_graph_image: projekte/schelb.ch-wettingen-schulhaus-margelaecker-spielplatz-0.jpg
 
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

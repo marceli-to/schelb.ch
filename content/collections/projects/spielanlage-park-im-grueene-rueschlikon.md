@@ -60,7 +60,7 @@ open_graph_description: 'Spielelemente in Robinie mit Kokons, Spielhaus, Seil- u
 open_graph_image: projekte/schelb.ch-rueschlikon-park-im-gruene-spielplatz-0.jpg
 
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

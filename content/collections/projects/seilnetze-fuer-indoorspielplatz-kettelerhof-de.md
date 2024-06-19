@@ -58,11 +58,10 @@ image: projekte/schelb.ch-kettelerhof-indoor-spielanlage-0.jpg
 description: 'Seilnetze für Indoorspielplatz Kettelerhof DE'
 open_graph_description: 'Verschiedene Seilarbeiten für die Indoor-Spielanlage von Kukuk GmbH im Kettelerhof DE. Komplexe feinmaschige Raumnetze, vor Ort in handwerklicher Technik aus stahlseilarmiertem LongLifeSeil erstellt.'
 open_graph_image: projekte/schelb.ch-kettelerhof-indoor-spielanlage-0.jpg
-
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - seiltechnik
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
-updated_at: 1718655574
+updated_at: 1718802505
 ---

@@ -121,5 +121,5 @@ description: |-
 open_graph_description: 'Im Bereich der öffentlichen Badeanstalt liegt ein, im Sand verbuddeltes, T-Rex Skelett. Es animiert die Kinder mit archäologischem Eifer, Fossilien freizulegen. Auch kleine Beute und sonstige Gegenstände sind in Dino`s Bauchgerippe zu finden. Natürlich alles aus Stein gemeisselt. Gleich nebenan ein frei geformtes betoniertes Wasserspiel für das ultimative Sand-Matsch-Buddelerlebnis.'
 open_graph_image: projekte/schelb.ch-bellinzona-dinosaurierskelett-wasserspiel-0.jpg
 list_title: 'Dinosaurierskelett und Wasserspiel, Bellinzona'
-type: projekte
+project_type: projekte
 ---

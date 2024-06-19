@@ -63,5 +63,5 @@ open_graph_image: projekte/schelb.ch-effretikon-rosswinkel-0.jpg
 has_detail: true
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
 updated_at: 1718723408
-type: projekte
+project_type: projekte
 ---

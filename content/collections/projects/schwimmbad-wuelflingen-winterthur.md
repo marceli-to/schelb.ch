@@ -81,7 +81,7 @@ open_graph_description: 'Neuer Kinderbadebereich mit Oktopus, Kopf als rot einge
 open_graph_image: projekte/schelb.ch-schwimmbad-wuelflingen-winterthur-wasserspiel-0.jpg
 
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39

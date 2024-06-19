@@ -18,10 +18,6 @@ main p:last-child {
   @apply mb-0;
 }
 
-main p a {
-  @apply underline underline-offset-8 decoration-1 hover:no-underline;
-}
-
 /* Text */
 h1,
 .text-title {

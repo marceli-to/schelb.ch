@@ -59,7 +59,7 @@ description: 'Biel Esplanade Kongresshausgarten'
 open_graph_description: 'Spielplatz beim Kongresshaus, Stahlkonstruktion mit Holz- und Seilkonstruktionen, mit Sitzecke, Raumnetzen und Schattendächern. Brunnenanlage aus Betonkuben, selber gegossen über geformten Wasserlauf-Negativen.'
 open_graph_image: projekte/schelb.ch-biel-esplanade-kongresshaus-brunnen-0.jpg
 has_detail: true
-type: werkarchiv
+project_type: werkarchiv
 category:
   - wasserspiel
 updated_by: c2f8321e-be41-4d83-b9ee-8136dba46b39
