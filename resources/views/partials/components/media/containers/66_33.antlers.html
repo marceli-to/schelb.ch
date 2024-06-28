@@ -8,11 +8,13 @@
       preset="focal-16-10" }}
   </div>
   <div class="md:col-span-2 relative max-w-[80%] md:max-w-none">
-    {{ partial:components/media/image 
-      :image="image_right" 
-      wrapperClass="aspect-[4/5]"
-      class="w-full h-full object-cover absolute"
-      :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
-      preset="focal-4-5" }}
+    {{ if image_right }}
+      {{ partial:components/media/image 
+        :image="image_right" 
+        wrapperClass="aspect-[4/5]"
+        class="w-full h-full object-cover absolute"
+        :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
+        preset="focal-4-5" }}
+    {{ /if }}
   </div>
 {{ /partial:layout/grid }}
