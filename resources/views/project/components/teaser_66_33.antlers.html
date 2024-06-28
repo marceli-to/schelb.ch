@@ -12,6 +12,7 @@
       {{ project_landscape:title }}
     </div>
 </a>
+{{ if image_portrait}}
 <a 
   href="{{ project_portrait:url }}"
   title="{{ project_portrait:title }}"
@@ -26,3 +27,4 @@
       {{ project_portrait:title }}
     </div>
 </a>
+{{ /if }}
