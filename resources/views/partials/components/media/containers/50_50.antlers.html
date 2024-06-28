@@ -1,19 +1,23 @@
 {{ partial:layout/grid }}
   {{ partial:layout/span class="mb-20 md:mb-0 relative" }}
-    {{ partial:components/media/image 
-      :image="image_left" 
-      wrapperClass="aspect-[4/3]"
-      class="w-full h-full object-cover absolute"
-      :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
-      preset="focal-4-3" }}
+    {{ if image_left }}
+      {{ partial:components/media/image 
+        :image="image_left" 
+        wrapperClass="aspect-[4/3]"
+        class="w-full h-full object-cover absolute"
+        :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
+        preset="focal-4-3" }}
+    {{ /if }}
   {{ /partial:layout/span }}
 
   {{ partial:layout/span class="relative" }}
-    {{ partial:components/media/image 
-      :image="image_right" 
-      wrapperClass="aspect-[4/3]"
-      class="w-full h-full object-cover absolute"
-      :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
-      preset="focal-4-3" }}
+    {{ if image_right }}
+      {{ partial:components/media/image 
+        :image="image_right" 
+        wrapperClass="aspect-[4/3]"
+        class="w-full h-full object-cover absolute"
+        :sizes="teaser ? ['lg'] : ['2xl', 'xl', 'lg']"
+        preset="focal-4-3" }}
+    {{ /if }}
   {{ /partial:layout/span }}
 {{ /partial:layout/grid }}
