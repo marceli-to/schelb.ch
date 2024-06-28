@@ -1,7 +1,8 @@
-{{ if project_type == 'projekte' }}
-{{ partial:project/components/filter_list class="hidden md:block" }}
-{{ else }}
+{{? $isArchive = isset($_SERVER['HTTP_REFERER']) && strpos($_SERVER['HTTP_REFERER'], 'werkarchiv') !== false ? true : false ?}}
+{{ if $isArchive || project_type == 'werkarchiv' }}
 {{ partial:project/components/filter_archive }}
+{{ else }}
+{{ partial:project/components/filter_list class="hidden md:block" }}
 {{ /if }}
 
 {{ if title }}
