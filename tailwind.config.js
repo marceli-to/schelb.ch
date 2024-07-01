@@ -27,6 +27,10 @@ export default {
         'gt-light-italic': ['GTAmericaULtIt', ...defaultTheme.fontFamily.sans],
       },
 
+      colors: {
+        'iron': '#666666'
+      },
+
       fontSize: {
         'xxs': '0.875rem',    // 14px
         'xs': '1rem',         // 16px

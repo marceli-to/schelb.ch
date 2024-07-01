@@ -1,9 +1,4 @@
-{{? $isArchive = isset($_SERVER['HTTP_REFERER']) && strpos($_SERVER['HTTP_REFERER'], 'werkarchiv') !== false ? true : false ?}}
-{{ if $isArchive || project_type == 'werkarchiv' }}
 {{ partial:project/components/filter_archive }}
-{{ else }}
-{{ partial:project/components/filter_list class="hidden md:block" }}
-{{ /if }}
 
 {{ if title }}
   {{ partial:components/headings/h1 title="{{ title }}" class="text-lead mb-15 md:mb-30 lg:mb-60" }}
