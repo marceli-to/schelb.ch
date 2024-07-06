@@ -62,3 +62,41 @@ em, i {
 .nobr {
   @apply whitespace-nowrap;
 }
+
+/* Page specific */
+body.privacy main {
+  @apply max-w-4xl text-xs md:text-base leading-[1.35];
+}
+
+body.privacy main h1 {
+  @apply text-xl md:text-2xl lg:text-3xl mb-20 lg:mb-35;
+}
+
+body.privacy main h2 {
+  @apply text-lg md:text-xl mb-10 lg:mb-15;
+}
+
+body.privacy main h3 {
+  @apply text-md md:text-md mb-5 lg:mb-10;
+}
+
+body.privacy main ul {
+  @apply list-disc pl-0 mb-15;
+}
+
+body.privacy main li {
+  @apply pl-12 -indent-12 list-none;
+}
+
+body.privacy main li p {
+  @apply inline;
+}
+
+body.privacy main li:before {
+    content: "– ";
+    margin-right: 5px;
+}
+
+body.privacy main a {
+  @apply text-black hover:no-underline hover:text-iron underline decoration-1 underline-offset-4;
+}
