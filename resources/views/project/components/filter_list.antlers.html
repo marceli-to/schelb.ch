@@ -7,7 +7,7 @@
         href="javascript:;"
         x-cloak
         x-on:click="filterOpen = ! filterOpen" 
-        :class="{ 'font-gt-light-italic italic mb-0': filterOpen === true, 'mb-20 md:mb-35': filterOpen === false }"
+        :class="{ 'text-iron font-gt-light-italic italic mb-0': filterOpen === true, 'mb-20 md:mb-35': filterOpen === false }"
         class="filter-button">
         <span>Liste</span>
         <span x-show="!filterOpen">
@@ -28,7 +28,7 @@
             <li>
               <a 
                 href="{{ url }}"
-                class="filter-item {{ current_uri == url ? 'font-gt-light-italic italic' : '' }}"
+                class="filter-item {{ current_uri == url ? 'font-gt-light-italic italic text-iron' : '' }}"
                 title="{{ list_title ?? title }}">
                 {{ list_title ?? title }}
               </a>

@@ -43,11 +43,11 @@ em, i {
 
 /* Filters */
 .filter-button {
-  @apply flex justify-between items-center py-1 w-full border-t border-t-black;
+  @apply flex justify-between items-center py-1 w-full border-t border-t-black hover:text-iron transition-all;
 }
 
 .filter-item {
-  @apply flex justify-between py-1 w-full border-t border-t-black hover:font-gt-light-italic hover:italic
+  @apply flex justify-between py-1 w-full border-t border-t-black hover:font-gt-light-italic hover:italic hover:text-iron transition-all
 }
 
 /* Order */
