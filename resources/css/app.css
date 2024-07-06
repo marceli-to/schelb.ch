@@ -100,3 +100,15 @@ body.privacy main li:before {
 body.privacy main a {
   @apply text-black hover:no-underline hover:text-iron underline decoration-1 underline-offset-4;
 }
+
+body.imprint .text-container > div {
+  @apply border-t border-t-black pt-4;
+}
+
+body.imprint .text-container h2 {
+  @apply text-base md:text-md mb-10 lg:mb-30;
+}
+
+body.imprint .text-container a:hover {
+  @apply text-iron font-gt-light-italic italic;
+}

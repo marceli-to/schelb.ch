@@ -20,5 +20,6 @@ fields:
     field:
       options:
         privacy: Datenschutz
+        imprint: Impressum
       type: select
       display: 'Seiten CSS-Klasse'
