@@ -34,6 +34,19 @@ tabs:
             field:
               type: textarea
               display: Lead
+              instructions: 'Text für die Anzeige auf der Startseite'
+          -
+            handle: text
+            field:
+              buttons:
+                - italic
+                - removeformat
+                - anchor
+              toolbar_mode: floating
+              remove_empty_nodes: true
+              type: bard
+              display: Text
+              instructions: 'Text für die Anzeige auf der Detailseite'
           -
             handle: page_elements
             field:

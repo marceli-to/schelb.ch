@@ -17,7 +17,12 @@
           {{ partial:components/media/containers/100 :image="main_image" }}
         {{ /if }}
 
-        {{ if lead }}
+        {{ if text }}
+          <div class="mt-15 md:mt-30 mb-45 lg:mb-105 text-lead hyphens-auto [&>a]:font-gt-light-italic [&>a]:italic">
+            {{ text }}
+          </div>
+        {{ else if lead }}
+
           <div class="mt-15 md:mt-30 mb-45 lg:mb-105 text-lead hyphens-auto">
             {{ lead }}
           </div>
